@@ -1,0 +1,12 @@
+entries:
+  - title: Контакты
+    entries:
+      - title: email
+        url: mailto:fluttermiddlepodcast@gmailcom
+      - title: github
+        url: http://github.com/fluttermiddlepodcast
+      - title: Telegram
+        url: http://t.me/fluttermiddlepodcast
+
+  - title: posts
+    post_list: true
