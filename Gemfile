@@ -2,10 +2,11 @@
 
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.3.4'
+gem 'github-pages'
 gem 'no-style-please'
+
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-feed'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
@@ -14,3 +15,5 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem 'wdm', '~> 0.1', platforms: %i[mingw x64_mingw mswin]
+
+gem "webrick", "~> 1.9"
