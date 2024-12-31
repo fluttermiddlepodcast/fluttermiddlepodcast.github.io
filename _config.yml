@@ -6,7 +6,7 @@ url: https://fluttermiddlepodcast.github.io
 
 favicon: "favicon.png"
 
-theme: minima
+theme: no-style-please
 plugins:
   - jekyll-feed
 
