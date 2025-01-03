@@ -5,11 +5,11 @@ date: 2025-01-01 00:00:00 +0300
 categories: post
 ---
 
+<img src="/assets/github/2024_wrapped_personal.png" width="720"/>
+
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/367)
 
 [👉 Спасибо Стасу Ильину за пост со статистикой](https://t.me/frezycode/514)
-
-<img src="/assets/github/2024_wrapped_personal.png" width="720"/>
 
 **Первое изображение - мои личные итоги**
 
