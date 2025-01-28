@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link type="application/atom+xml" rel="alternate" href="https://fluttermiddlepodcast.github.io/feed.xml" title="Flutter Developer Talks" />
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Домашний сервер. Как я до него дошел и почему отказался от использования | Flutter Developer Talks</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Домашний сервер. Как я до него дошел и почему отказался от использования" />
+<meta name="author" content="Riccardo Graziosi" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Читать в Telegram" />
+<meta property="og:description" content="Читать в Telegram" />
+<link rel="canonical" href="https://fluttermiddlepodcast.github.io/post/2024/05/20/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B9-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80-%D0%BA%D0%B0%D0%BA-%D1%8F-%D0%B4%D0%BE-%D0%BD%D0%B5%D0%B3%D0%BE-%D0%B4%D0%BE%D1%88%D0%B5%D0%BB-%D0%B8-%D0%BF%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%BE%D1%82%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D1%81%D1%8F-%D0%BE%D1%82-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.html" />
+<meta property="og:url" content="https://fluttermiddlepodcast.github.io/post/2024/05/20/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B9-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80-%D0%BA%D0%B0%D0%BA-%D1%8F-%D0%B4%D0%BE-%D0%BD%D0%B5%D0%B3%D0%BE-%D0%B4%D0%BE%D1%88%D0%B5%D0%BB-%D0%B8-%D0%BF%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%BE%D1%82%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D1%81%D1%8F-%D0%BE%D1%82-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.html" />
+<meta property="og:site_name" content="Flutter Developer Talks" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-05-20T00:00:00+03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Домашний сервер. Как я до него дошел и почему отказался от использования" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://fluttermiddlepodcast.github.io/post/2024/05/20/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B9-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80-%D0%BA%D0%B0%D0%BA-%D1%8F-%D0%B4%D0%BE-%D0%BD%D0%B5%D0%B3%D0%BE-%D0%B4%D0%BE%D1%88%D0%B5%D0%BB-%D0%B8-%D0%BF%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%BE%D1%82%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D1%81%D1%8F-%D0%BE%D1%82-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.html"},"@type":"BlogPosting","description":"Читать в Telegram","url":"https://fluttermiddlepodcast.github.io/post/2024/05/20/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B9-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80-%D0%BA%D0%B0%D0%BA-%D1%8F-%D0%B4%D0%BE-%D0%BD%D0%B5%D0%B3%D0%BE-%D0%B4%D0%BE%D1%88%D0%B5%D0%BB-%D0%B8-%D0%BF%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%BE%D1%82%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D1%81%D1%8F-%D0%BE%D1%82-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.html","author":{"@type":"Person","name":"Riccardo Graziosi"},"headline":"Домашний сервер. Как я до него дошел и почему отказался от использования","dateModified":"2024-05-20T00:00:00+03:00","datePublished":"2024-05-20T00:00:00+03:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+  <link rel="stylesheet" href="https://fluttermiddlepodcast.github.io/assets/css/main.css" />
+</head><body>
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <a href="https://fluttermiddlepodcast.github.io">..</a>
+<h1>Домашний сервер. Как я до него дошел и почему отказался от использования</h1>
+<p><a href="https://t.me/fluttermiddlepodcast/225">Читать в Telegram</a></p>
+
+<p>До перехода на macOS я то и дело метался между Windows и Linux, а для сборок iOS-приложений был базовый MacBook Air на
+M1. Сам PC на Ryzen 2700X, 32 гигабайта RAM, быстрый SSD и все такое - вообще не задумывался по поводу зависаний, все
+летало (и летает) как нужно.</p>
+
+<p>Но, данный вариант был ok до того момента, когда на работе не появилась потребность в постоянном использовании Мака -
+вся инфраструктура в виде дополнительных сборочных конфигов была сделана только для macOS (на самом деле нет, ибо я
+какое-то время заводил это все на Ubuntu, пока она меня не подвела и Android-эмулятор не вывел из работоспособности всю
+ОС), поддержку Windows (Linux можно было завести, ранее про это и написано, но если была какая-то проблема - решай сам)
+завозить не хотели, да и судя по настрою коллег, всем было хорошо и на яблочной оси (компания раздавала всем рабочие
+прошки на M-процессорах, не нужно было тратиться. Я был со стороны аутстаффа, поэтому данная тема для меня была более
+важной). В конце концов до меня дошло, что для разработки на Flutter идеальнее (спорить не будем) macOS ничего нет - ты
+разрабатываешь сразу под все мобильные платформы, и не нужно метаться из комнаты в комнату за другим компьютером. Если
+есть нюансы с инфраструктурой на работе - у тебя уже есть macOS, ничего не нужно делать, чтобы все настроить.</p>
+
+<p>Купил MacBook и встал вопрос - что делать с PC? Продавать не хотелось, давно хотел сделать домашний сервер (как минимум
+смотрел в сторону <a href="https://aws.amazon.com/ru/what-is/nas/">NAS</a>, но почему бы не сделать еще что-то, помимо файлового
+хранилища). А тут, на самом деле, такой простор для полета фантазии, что можно месяцами варьировать конфигурации и
+менять то, что будет на сервере крутиться.</p>
+
+<p>Первым делом начал смотреть, а на чем все это можно сделать. На одной из работ был <a href="https://prometheus.io/">Prometheus</a>,
+это типа <a href="https://www.virtualbox.org/">VirtualBox</a>, только на уровне операционной системы (в плане того, что ты
+запускаешь OC - а у тебя там выбор других ОС). Из плюсов - все очень гибко настраивается, можно сделать кучу всего,
+разделить ресурсы так, как тебе хочется, и вдобавок идут дашборды с аналитикой. Минусы - этим всем нужно управлять, и
+для варианта медиа-сервер + локальный Git, слишком нагружено. Продержалась данная реализация около пары месяцев, и
+потом, ввиду всех минусов, я начал искать другое решение.</p>
+
+<p>Другим решением стал вариант просто накатить <a href="https://ubuntu.com/download/server">Ubuntu Server</a> и крутить все сервисы в
+контейнерах (<a href="https://www.docker.com/">Docker</a>). Нет возни с кучей раздельных серверных ОС, все исходит из одного места,
+а запросы у меня не самые навороченные.</p>
+
+<p>❓ <strong>Что крутилось на сервере</strong></p>
+
+<p>1️⃣ <a href="https://jellyfin.org/">Jellyfin</a> - домашний медиа-сервер. Штука иногда лагучая, но в целом отличное решение для
+своего домашнего хаба с фильмами и сериалами.</p>
+
+<p>2️⃣ Скрипт для бэкапа Git-репозиториев - раз в сутки выкачивались проекты и ветки к ним.</p>
+
+<p>3️⃣ <a href="https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners">Выделенный GitHub Actions
+воркер</a>
+для приватных проектов на GitHub’е - мощности есть, более быстрое выполнение CI/CD-пайплайнов.</p>
+
+<p>4️⃣ <a href="https://transmissionbt.com/">Transmission Server</a> - качалка всего и вся, в основном для Jellyfin.</p>
+
+<p>Все это дело крутилось в Docker-контейнерах, работало почти всегда без сбоев. Меня не устраивал лишь 1 момент - мизерное
+потребление ресурсов, так как нагрузка в пиковые моменты была около 20%, все остальное время ресурсы простаивали.
+Придумывать новые варианты использования сервера я уже устал, и было принято решение скинуть старый MacBook Pro, который
+был для подкастов, и настроить PC для монтажа и записи видео. Очень странно получалось, что сервер стоит без дела, а MBP
+издает звуки самолета в надежде поскорее остудиться после конвертации выпуска в MP3.</p>
+
+<p>Выводом, который можно сделать по этой теме будет “Если и делать личный сервер, то только исходя из соотношения
+потребности/производительности”. Часть вещей в итоге перевел в облако, часть была не нужна и придумывалась только ради
+того, чтобы забить неиспользуемые ресурсы. Так что лучше подумать, стоит ли игра свеч, если почти все ресурсы будут
+простаивать.</p>
+
+
+        </div>
+    </main>
+    </body>
+</html>
