@@ -14,9 +14,6 @@ permalink: /about/
 #### Слушать
 
 - [Apple Podcasts](https://podcasts.apple.com/by/podcast/flutter-middle-podcast/id1648922484)
-- [Yandex.Music](https://music.yandex.ru/album/23735163)
-- [SoundCloud](https://soundcloud.com/artem-f-676932084)
-- [Spotify](https://open.spotify.com/show/1CrEfnUMAKnd2eFU0LmK5w)
 
 #### Смотреть
 
