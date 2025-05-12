@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2025-05-04T19:40:29+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">freezed 3</title><link href="https://fluttermiddlepodcast.github.io/post/2025/05/04/freezed-3.html" rel="alternate" type="text/html" title="freezed 3" /><published>2025-05-04T00:00:00+03:00</published><updated>2025-05-04T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/05/04/freezed-3</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/05/04/freezed-3.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/430&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2025-05-12T14:11:26+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Все материалы по BLoC / flutter_bloc</title><link href="https://fluttermiddlepodcast.github.io/post/2025/05/12/%D0%B2%D1%81%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-bloc-flutter-bloc.html" rel="alternate" type="text/html" title="Все материалы по BLoC / flutter_bloc" /><published>2025-05-12T00:00:00+03:00</published><updated>2025-05-12T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/05/12/%D0%B2%D1%81%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-bloc-flutter-bloc</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/05/12/%D0%B2%D1%81%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-bloc-flutter-bloc.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/432&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;За почти год с небольшим каким-то образом получилось выпустить материалы по всем популярным темам касательно &lt;a href=&quot;https://pub.dev/packages/flutter_bloc&quot;&gt;flutter_bloc&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;В этом посте разбил весь контент на категории для более удобной навигации. Так же напоминаю, что весь контент по Блоку можно искать по тегу `#bloc (только в &lt;a href=&quot;https://t.me/fluttermiddlepodcast&quot;&gt;Telegram&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Основы&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/172&quot;&gt;Flutter Developer Talks #12 - BLoC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/173&quot;&gt;Flutter Developer Learn #1 - Дополнение к выпуску про базу BLoC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/229&quot;&gt;Flutter Developer Learn #2 - BlocBuilder&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/267&quot;&gt;Flutter Developer Learn #3 - Реализация состояний в BLoC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/277&quot;&gt;Flutter Developer Learn #4 - BlocListener&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/279&quot;&gt;Flutter Developer Learn #5 - Cubit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/300&quot;&gt;Flutter Developer Learn #8 - Как не нужно выстраивать коммуникацию между блоками&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/338&quot;&gt;Flutter Developer Learn #10 - BlocConsumer 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Продакшн&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/281&quot;&gt;Flutter Developer Learn #6 - feature-first и layer-first подходы для организации Flutter-проектов&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/379&quot;&gt;bloc_concurrency&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/391&quot;&gt;Шиммеры / Скелетоны&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/421&quot;&gt;bloc + пагинация = ❤️&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/426&quot;&gt;hydrated_bloc: сохраняем состояние блоков&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/427&quot;&gt;replay_bloc: откатываем состояния блоков и кубитов&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Тулинг&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/297&quot;&gt;Flutter Developer Learn #7 - Генерация шаблонного кода / mason&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/423&quot;&gt;bloc_tools: генерируем блоки из консоли&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Полезное&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/282&quot;&gt;flutter_bloc на собеседованиях&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/327&quot;&gt;VS Code для разработки Flutter-приложений&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Хотел рассказать еще про &lt;a href=&quot;https://pub.dev/packages/bloc_lint&quot;&gt;bloc_lint&lt;/a&gt;, но его с того года не поддерживают, а замена хоть и &lt;a href=&quot;https://github.com/felangel/bloc/pull/4278&quot;&gt;планируется&lt;/a&gt;, но пока не вышла. Надеюсь, в будущем ребята что-нибудь придумают, и проверки многих базовых ошибок будут контролироваться на уровне линтера.&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry><entry><title type="html">freezed 3</title><link href="https://fluttermiddlepodcast.github.io/post/2025/05/04/freezed-3.html" rel="alternate" type="text/html" title="freezed 3" /><published>2025-05-04T00:00:00+03:00</published><updated>2025-05-04T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/05/04/freezed-3</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/05/04/freezed-3.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/430&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;У нас тут был большой релиз, и будто бы все отодвинулось на второй-третий план.&lt;/p&gt;
 
@@ -421,46 +465,4 @@ Codewars. &lt;a href=&quot;https://www.youtube.com/watch?v=ppDsseNphqw&amp;amp;l
   &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/369&quot;&gt;Блог на Jekyll&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/371&quot;&gt;Flutter + Ruby / Rails&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/372&quot;&gt;StackOverflow загибается?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry><entry><title type="html">Дополнение про оптимизацию работы build_runner</title><link href="https://fluttermiddlepodcast.github.io/post/2025/01/31/%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-build-runner.html" rel="alternate" type="text/html" title="Дополнение про оптимизацию работы build_runner" /><published>2025-01-31T00:00:00+03:00</published><updated>2025-01-31T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/01/31/%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-build-runner</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/01/31/%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-build-runner.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/383&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/gBbJldZaqRE&quot;&gt;Видео с примерами оптимизации build_runner&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;YouTube падает при ответе на ваши комментарии, поэтому соберу их тут.&lt;/p&gt;
-
-&lt;p&gt;1️⃣ &lt;strong&gt;Зачем вообще нужна оптимизация build_runner? Вы сами себе все усложняете&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Если на проект большой, и над ним работает большая команда - неизбежны конфликты при слиянии веток. Это относится как к
-небольшим классам (типа пользователя или товара, например), так и к DI, где сгенерированный файл может насчитывать
-тысячи строк кода, которые руками не поправишь при наличии конфликтов. Как итог - нужно запускать билд заново, а это
-лишнее время. Добавить к этому ситуацию, когда в репозитории слетаю аппрувы при новых коммитах - на небольшое
-исправление уйдет куча времени, и в лучшем случае за прошедшие десятки минут не придут чьи-то правки, которые сломают
-ваши текущие.&lt;/p&gt;
-
-&lt;p&gt;Мне лично не нравится удаление ген. файлов, но решение порой принимаются либо лидами, либо всей командой, и приходится
-работать с тем, что есть. А тут уже проще покопаться в настройках и что-то поправить, нежели менять работу и доказывать
-всем не согласным, что они не правы.&lt;/p&gt;
-
-&lt;p&gt;Есть еще раздел в документации &lt;a href=&quot;https://pub.dev/packages/build_runner#source-control&quot;&gt;build_runner&lt;/a&gt;. Там советуют не
-хранить ничего сгенерированного в репозитории, но это лишь совет, а не правило работы с билдером.&lt;/p&gt;
-
-&lt;p&gt;2️⃣ &lt;strong&gt;Какие еще есть способы запуска build_runner? Для отдельного файла, пакета, есть возможность билда?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Можно запустить build_runner с параметром –build-filter, который будет работать только с тем скоупом, что вы туда ему
-передадите.&lt;/p&gt;
-
-&lt;p&gt;❗️ Все примеры ниже применимы к проекту, которые разбирается в видео. Запуск происходит так же, как в видео (через fvm).
-Для использования на ваших примерех нужно заменить значение –build-filter на то, что у вас локально.&lt;/p&gt;
-
-&lt;p&gt;Для файла пример будет такой:&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;fvm flutter pub run build_runner build &lt;span class=&quot;nt&quot;&gt;--build-filter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;lib/cp_one/one/model_gen.g.dart&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Директорию можно обработать следующим образом:&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;fvm flutter pub run build_runner build &lt;span class=&quot;nt&quot;&gt;--build-filter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;lib/cp_one/**/*.g.dart&quot;&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Есть вариант попробовать написать скрипт, который соберет список измененный файлах, и только для них сгенерирует нужные
-файлы. Собственно, что-то подобное мы как-то хотели сделать у себя на проекте, но это показалось уже чем-то не очень
-нужным.&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry></feed>
