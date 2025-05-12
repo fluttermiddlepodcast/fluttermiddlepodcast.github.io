@@ -11,7 +11,7 @@ categories: post
 касательно [flutter_bloc](https://pub.dev/packages/flutter_bloc).
 
 В этом посте разбил весь контент на категории для более удобной навигации. Так же напоминаю, что весь контент по Блоку
-можно искать по тегу `#bloc (только в [Telegram](https://t.me/fluttermiddlepodcast)).
+можно искать по тегу `#bloc` (только в [Telegram](https://t.me/fluttermiddlepodcast)).
 
 **Основы**
 
