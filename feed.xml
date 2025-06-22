@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2025-06-22T06:08:59+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Улучшаем резюме при помощи DeepSeek / ChatGPT</title><link href="https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt.html" rel="alternate" type="text/html" title="Улучшаем резюме при помощи DeepSeek / ChatGPT" /><published>2025-06-22T00:00:00+03:00</published><updated>2025-06-22T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/441&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2025-06-22T06:12:55+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Улучшаем резюме при помощи DeepSeek / ChatGPT</title><link href="https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt.html" rel="alternate" type="text/html" title="Улучшаем резюме при помощи DeepSeek / ChatGPT" /><published>2025-06-22T00:00:00+03:00</published><updated>2025-06-22T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/441&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;📱 Улучшаем резюме при помощи DeepSeek / ChatGPT&lt;/p&gt;
 
@@ -9,13 +9,13 @@
 
 &lt;p&gt;Просто вставляем следующий текст и прикрепляем файл в чат с AI-ассистентом:&lt;/p&gt;
 
-&lt;p&gt;*Проанализируй моё резюме на основе следующих данных:
+&lt;p&gt;&lt;em&gt;Проанализируй моё резюме на основе следующих данных:
 — Текст резюме
 — Опыт работы (должности, компании, обязанности)
 — Образование
 — Навыки
 — Сертификаты и достижения (если есть)
-— Дополнительная информация (если есть)&lt;/p&gt;
+— Дополнительная информация (если есть)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Мне нужно понять:
 — Какие первые впечатления складываются о кандидате?
@@ -25,7 +25,7 @@
 — Что может насторожить или оттолкнуть рекрутера?
 — Как бы ты оценил общее впечатление от моего резюме?&lt;/p&gt;
 
-&lt;p&gt;Проанализируй текст как опытный HR/рекрутер и дай подробный, честный разбор.*&lt;/p&gt;
+&lt;p&gt;Проанализируй текст как опытный HR/рекрутер и дай подробный, честный разбор.&amp;lt;/em&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;Разницы между DeepSeek и ChatGPT почти нет. Однако, первый если что-то подсвечивает (типа у тебя нет высшего
 образования, это плохо), то рассказывает более подробно, в каких ситуациях что и кому может не понравится. Рекомендую
