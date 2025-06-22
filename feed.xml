@@ -1,4 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2025-05-12T14:40:02+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Все материалы по BLoC / flutter_bloc</title><link href="https://fluttermiddlepodcast.github.io/post/2025/05/12/%D0%B2%D1%81%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-bloc-flutter-bloc.html" rel="alternate" type="text/html" title="Все материалы по BLoC / flutter_bloc" /><published>2025-05-12T00:00:00+03:00</published><updated>2025-05-12T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/05/12/%D0%B2%D1%81%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-bloc-flutter-bloc</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/05/12/%D0%B2%D1%81%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-bloc-flutter-bloc.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/432&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2025-06-22T06:04:12+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Улучшаем резюме при помощи DeepSeek / ChatGPT</title><link href="https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt.html" rel="alternate" type="text/html" title="Улучшаем резюме при помощи DeepSeek / ChatGPT" /><published>2025-06-22T00:00:00+03:00</published><updated>2025-06-22T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/441&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;📱 Улучшаем резюме при помощи DeepSeek / ChatGPT&lt;/p&gt;
+
+&lt;p&gt;Нашел промпт, по которому &lt;a href=&quot;https://chat.deepseek.com/&quot;&gt;DeepSeek&lt;/a&gt; и &lt;a href=&quot;https://chatgpt.com/&quot;&gt;GhatGPT&lt;/a&gt; подсветили неявные
+проблемные моменты в моем резюме, а также дал советы, что с ними делать.&lt;/p&gt;
+
+&lt;p&gt;Резюме выгружал с &lt;a href=&quot;https://hh.ru/&quot;&gt;HH&lt;/a&gt;. Работал с PDF и DOC-файлами. О разнице форматов расскажу ниже в заметках.&lt;/p&gt;
+
+&lt;p&gt;Просто вставляем следующий текст и прикрепляем файл в чат с AI-ассистентом:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Проанализируй моё резюме на основе следующих данных:
+— Текст резюме
+— Опыт работы (должности, компании, обязанности)
+— Образование
+— Навыки
+— Сертификаты и достижения (если есть)
+— Дополнительная информация (если есть)
+
+Мне нужно понять:
+— Какие первые впечатления складываются о кандидате?
+— В какую профессию/роль я выгляжу наиболее подходящим кандидатом?
+— Какие сильные стороны заметны сразу?
+— Какие слабые места стоит доработать?
+— Что может насторожить или оттолкнуть рекрутера?
+— Как бы ты оценил общее впечатление от моего резюме?
+
+Проанализируй текст как опытный HR/рекрутер и дай подробный, честный разбор.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Разницы между DeepSeek и ChatGPT почти нет. Однако, первый если что-то подсвечивает (типа у тебя нет высшего
+образования, это плохо), то рассказывает более подробно, в каких ситуациях что и кому может не понравится. Рекомендую
+попробовать несколько вариантов и найти самый подходящий для вас.&lt;/p&gt;
+
+&lt;p&gt;👨🏻‍💻 &lt;strong&gt;Итоги по моему резюме&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Возможные недопонимания по части времени работы в разных компаниях:&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Я работал в компании Y, и спустя год после ухода оттуда помогал им с наймом как подрядчик. В резюме, если не смотреть на
+описание, опыт выглядит как Компания Y -&amp;gt; Текущее место работы -&amp;gt; Компания Y. Описание по моему опыту мало кто читает,
+так что лучше убрать это пункт вообще. Тем более, что там 2 месяца всего - будет больше вопросов со стороны HR, чем
+пользы.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Образование:&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;У меня нет вуза за плечами, и если вы не хотите видеть советы DeepSeek по вышке, лучше убрать пункт из промта. Он
+говорит, что на позиции тимлида и выше могут потребовать, но туда я пока не собираюсь. Ну а про высшее образование мы с
+вами уже говорили. (https://t.me/fluttermiddlepodcast/103)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Достижения без метрик:&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Не везде есть цифры. Нужно указывать конкретные значения во всех ключевых достижениях. Не сократил время запуска
+приложения, а ускорил время запуска приложения в 2 раза, например. Придется переделать пару пунктов, однако примеры есть
+в других кейсах, и будет проще на них ориентироваться.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Языки:&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;У меня Английский - B2. Для международных проектов этого может быть недостаточно. Вообще, давно им не занимался, может
+быть, там уже и не B2. Однако за подсказку спасибо, есть над чем поработать.&lt;/p&gt;
+
+&lt;p&gt;❗️ &lt;strong&gt;Заметки&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;После первого прогона понять, что не важно, и убрать из него все лишнее.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Использовать можно хоть PDF, хоть DOC. Однако нужно учитывать, что DeepSeek может распарсить файл с ошибками, и весь
+его последующий вывод будет учитывать и их. Если есть ошибки - это минус к итоговой оценке, хотя тут даже не ваша
+вина. Помогло скормить ему не DOC, а PDF, однако в другом подобном кейсе сработала обратная ситуация.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Не все советы прям действительно могут пригодиться. AI подсвечивает много чего, что зависит от конкретной ситуации.
+Высшее образование не всегда играет хоть сколь большую роль в трудоустройстве, больше обращают внимание на опыт. А
+Английский язык выше B2 на СНГ-рынке требуется не часто.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;AI без конкретики выдаст результат по вашей текущей позиции с типичным планом развития. Это не значит, что
+обязательно после Middle идет Senior, а дальше только в лидство. Если план развития другой, лучше написать об этом
+заранее - советы будут ориентированы на конкретный кейс.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry><entry><title type="html">Все материалы по BLoC / flutter_bloc</title><link href="https://fluttermiddlepodcast.github.io/post/2025/05/12/%D0%B2%D1%81%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-bloc-flutter-bloc.html" rel="alternate" type="text/html" title="Все материалы по BLoC / flutter_bloc" /><published>2025-05-12T00:00:00+03:00</published><updated>2025-05-12T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/05/12/%D0%B2%D1%81%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-bloc-flutter-bloc</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/05/12/%D0%B2%D1%81%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-bloc-flutter-bloc.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/432&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;За почти год с небольшим каким-то образом получилось выпустить материалы по всем популярным темам
 касательно &lt;a href=&quot;https://pub.dev/packages/flutter_bloc&quot;&gt;flutter_bloc&lt;/a&gt;.&lt;/p&gt;
@@ -439,34 +528,4 @@ Codewars. &lt;a href=&quot;https://www.youtube.com/watch?v=ppDsseNphqw&amp;amp;l
 дело пару дней, и перезалить все выпуски на площадки. По-сути, звук станет громче, возможно удалю какие-нибудь артефакты
 типа пения птиц.&lt;/p&gt;
 
-&lt;p&gt;🙏 &lt;strong&gt;Спасибо за поддержку просмотрами, это сильно радует и мотивирует делать что-то новое!&lt;/strong&gt;&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry><entry><title type="html">Январский дамп</title><link href="https://fluttermiddlepodcast.github.io/post/2025/02/01/%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF.html" rel="alternate" type="text/html" title="Январский дамп" /><published>2025-02-01T00:00:00+03:00</published><updated>2025-02-01T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/02/01/%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/02/01/%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-02-01.jpg&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/385&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Все материалы за январь.&lt;/p&gt;
-
-&lt;p&gt;🎧 &lt;strong&gt;Подкаст&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/370&quot;&gt;Мой опыт работы. Локальная продуктовая компания&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/373&quot;&gt;Мой опыт работы. Заказная разработка&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/376&quot;&gt;Мой стек на Flutter-проектах 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/379&quot;&gt;bloc_concurrency&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;📺 &lt;strong&gt;Видео&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/tPSqLA7i-3U&quot;&gt;bloc_concurrency&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/HY9UneUgTuU&quot;&gt;Запись стрима от 26.02.2025&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gBbJldZaqRE&quot;&gt;Оптимизируем build_runner&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;🔖 &lt;strong&gt;Посты&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/367&quot;&gt;GitHub 2024 Wrapped&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/369&quot;&gt;Блог на Jekyll&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/371&quot;&gt;Flutter + Ruby / Rails&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/372&quot;&gt;StackOverflow загибается?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;🙏 &lt;strong&gt;Спасибо за поддержку просмотрами, это сильно радует и мотивирует делать что-то новое!&lt;/strong&gt;&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry></feed>
