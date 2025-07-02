@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2025-07-02T08:35:40+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Улучшаем резюме при помощи DeepSeek / ChatGPT</title><link href="https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt.html" rel="alternate" type="text/html" title="Улучшаем резюме при помощи DeepSeek / ChatGPT" /><published>2025-06-22T00:00:00+03:00</published><updated>2025-06-22T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/441&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2025-07-02T08:52:40+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Июньский дамп</title><link href="https://fluttermiddlepodcast.github.io/post/2025/07/01/%D0%B8%D1%8E%D0%BD%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF.html" rel="alternate" type="text/html" title="Июньский дамп" /><published>2025-07-01T00:00:00+03:00</published><updated>2025-07-01T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/07/01/%D0%B8%D1%8E%D0%BD%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/07/01/%D0%B8%D1%8E%D0%BD%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-07-01.jpg&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/443&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Все материалы за июнь.&lt;/p&gt;
+
+&lt;p&gt;Напоминаю, что мы разобрали весь &lt;a href=&quot;https://pub.dev/packages/flutter_bloc&quot;&gt;flutter_bloc&lt;/a&gt;. Ссылки на материалы находятся
+в &lt;a href=&quot;https://t.me/fluttermiddlepodcast/432&quot;&gt;этом посте&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;🔖 &lt;strong&gt;Посты&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/441&quot;&gt;Новости / Анонсы 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/442&quot;&gt;Улучшаем резюме при помощи DeepSeek / ChatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry><entry><title type="html">Улучшаем резюме при помощи DeepSeek / ChatGPT</title><link href="https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt.html" rel="alternate" type="text/html" title="Улучшаем резюме при помощи DeepSeek / ChatGPT" /><published>2025-06-22T00:00:00+03:00</published><updated>2025-06-22T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/06/22/%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B0%D0%B5%D0%BC-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8-deepseek-chatgpt.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/441&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;📱 Улучшаем резюме при помощи DeepSeek / ChatGPT&lt;/p&gt;
 
@@ -452,48 +466,4 @@ codewars_dart, (https://github.com/fluttermiddlepodcast/leetcode_dart) дума�
 
 &lt;p&gt;Возможно, просто обговорю тему на каком-нибудь стриме, но в виде текста ничего не выйдет.&lt;/p&gt;
 
-&lt;p&gt;🙏 &lt;strong&gt;Спасибо за поддержку просмотрами, это сильно радует и мотивирует делать что-то новое!&lt;/strong&gt;&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry><entry><title type="html">Февральский дамп</title><link href="https://fluttermiddlepodcast.github.io/post/2025/03/01/%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF.html" rel="alternate" type="text/html" title="Февральский дамп" /><published>2025-03-01T00:00:00+03:00</published><updated>2025-03-01T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/03/01/%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/03/01/%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-03-01.jpg&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/396&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Все материалы за февраль.&lt;/p&gt;
-
-&lt;p&gt;🎧 &lt;strong&gt;Подкаст&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/386&quot;&gt;Самые часто используемые плагины 1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/389&quot;&gt;Самые часто используемые плагины 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/390&quot;&gt;Самые часто используемые плагины 3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/393&quot;&gt;Зрелость Flutter’а как технологии&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;📺 &lt;strong&gt;Видео&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/CnwLsvswZb4&quot;&gt;Самые часто используемые плагины 1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/AktR_vmwXJ0&quot;&gt;Самые часто используемые плагины 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/fL2IZTZh0hE&quot;&gt;Самые часто используемые плагины 3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/CMj70A5k17E&quot;&gt;make / Makefile для Flutter-проектов&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/wt_uZ8o5LUk&quot;&gt;Запись стрима от 31.01.2025&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/RdilHtdZ4zA&quot;&gt;coverage: Покрытие кода тестами&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/L-Jgfsl1lmM&quot;&gt;Шиммеры / Скелетоны&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/NxY6mGaIzKY&quot;&gt;Оптимизация GitHub Actions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;👨🏻‍💻 &lt;strong&gt;Codewars&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/zRDisFz0ZCM&quot;&gt;codewars_dart: Leap Years (7 kyu)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/qOJe8GPqNSA&quot;&gt;codewars_dart: Maximum Multiple (7 kyu)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/vT9eV9oSGFg&quot;&gt;codewars_dart: Nth Smallest Element (7 kyu)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/PQsGsuiV5J8&quot;&gt;codewars_dart: Product Of Maximums Of Array (7 kyu)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/zNG-9X1qKIU&quot;&gt;codewars_dart: V A P O R C O D E (7 kyu)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/7JBpntlI-iU&quot;&gt;codewars_dart: Valid Spacing (7 kyu)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;🔖 &lt;strong&gt;Посты&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/385&quot;&gt;Январский дамп&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/395&quot;&gt;Новости / Анонсы&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;🙏 &lt;strong&gt;Спасибо за поддержку просмотрами, это сильно радует и мотивирует делать что-то новое!&lt;/strong&gt;&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry></feed>
