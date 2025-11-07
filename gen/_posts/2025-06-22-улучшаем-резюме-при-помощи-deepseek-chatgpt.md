@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Улучшаем резюме при помощи DeepSeek / ChatGPT
+title: 🔥 Улучшаем резюме при помощи DeepSeek / ChatGPT
 date: 2025-06-22 00:00:00 +0300
 categories: post
 ---

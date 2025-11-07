@@ -38,13 +38,18 @@
 
 <p>У нас тут был большой релиз, и будто бы все отодвинулось на второй-третий план.</p>
 
-<p>Тем временем, вышел мажорный апдейт <a href="https://pub.dev/packages/freezed">freezed</a>. Для обновления лучше руководствоваться <a href="https://github.com/rrousselGit/freezed/blob/master/packages/freezed/migration_guide.md">инструкцией по миграции</a>, так как изменились некоторые ключевые механики плагина.</p>
+<p>Тем временем, вышел мажорный апдейт <a href="https://pub.dev/packages/freezed">freezed</a>. Для обновления лучше
+руководствоваться <a href="https://github.com/rrousselGit/freezed/blob/master/packages/freezed/migration_guide.md">инструкцией по миграции</a>,
+так как изменились некоторые ключевые механики плагина.</p>
 
-<p>Ниже список того, что мне больше всего приглянулось. <a href="https://github.com/rrousselGit/freezed/blob/master/packages/freezed/CHANGELOG.md#300---2025-02-25">Полный список нововведений тут</a>.</p>
+<p>Ниже список того, что мне больше всего
+приглянулось. <a href="https://github.com/rrousselGit/freezed/blob/master/packages/freezed/CHANGELOG.md#300---2025-02-25">Полный список нововведений тут</a>.</p>
 
 <p>1️⃣ <strong>Наследование</strong></p>
 
-<p>Выделил это первым пунктом и отдельно. Боль нашего проекта, из-за которой очень долгое время приходилось (и приходится) использовать <a href="https://pub.dev/packages/built_value">built_value</a>, в котором наследование было с давних времен (само решение такое себе, очень много лишнего в процессе работы появляется).</p>
+<p>Выделил это первым пунктом и отдельно. Боль нашего проекта, из-за которой очень долгое время приходилось (и приходится)
+использовать <a href="https://pub.dev/packages/built_value">built_value</a>, в котором наследование было с давних времен (само
+решение такое себе, очень много лишнего в процессе работы появляется).</p>
 
 <p><em>Выглядит наследование во <code class="language-plaintext highlighter-rouge">freezed</code> следующим образом:</em></p>
 
@@ -54,8 +59,37 @@
 
 <span class="nd">@freezed</span>
 <span class="kd">class</span> <span class="nc">Usual</span> <span class="kd">extends</span> <span class="n">Base</span> <span class="k">with</span> <span class="n">_$Usual</span> <span class="p">{</span>
-  <span class="n">Usual</span><span class="p">({</span><span class="kt">int</span><span class="o">?</span> <span class="n">a</span><span class="p">})</span> <span class="n">a</span> <span class="o">=</span> <span class="n">a</span> <span class="o">??</span> <span class="mi">0</span><span class="p">,</span> <span class="k">super</span><span class="p">(</span><span class="s">'value'</span><span class="p">);</span>
-  <span class="kd">final</span> <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+  <span class="n">Usual</span><span class="p">({</span><span class="kt">int</span><span class="o">?</span> <span class="n">a</span><span class="p">})</span>
+
+  <span class="n">a</span>
+
+  <span class="o">=</span>
+
+  <span class="n">a</span>
+
+  <span class="o">??</span>
+
+  <span class="mi">0</span>
+
+  <span class="p">,</span>
+
+  <span class="k">super</span>
+
+  <span class="p">(</span>
+
+  <span class="s">'
+
+  value
+
+  '</span>
+
+  <span class="p">);</span>
+
+  <span class="kd">final</span>
+
+  <span class="kt">int</span>
+
+  <span class="n">a</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -78,6 +112,7 @@
 <div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@freezed</span>
 <span class="kd">class</span> <span class="nc">Usual</span> <span class="k">with</span> <span class="n">_$Usual</span> <span class="p">{</span>
   <span class="n">Usual</span><span class="p">({</span><span class="k">this</span><span class="o">.</span><span class="na">a</span><span class="p">});</span>
+
   <span class="kd">final</span> <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div></div>
@@ -96,6 +131,7 @@
   <span class="n">Response</span><span class="o">.</span><span class="na">_</span><span class="p">({</span><span class="n">DateTime</span><span class="o">?</span> <span class="n">time</span><span class="p">})</span> <span class="o">:</span> <span class="n">time</span> <span class="o">=</span> <span class="n">time</span> <span class="o">??</span> <span class="n">DateTime</span><span class="o">.</span><span class="na">now</span><span class="p">();</span>
 
   <span class="kd">factory</span> <span class="n">Response</span><span class="o">.</span><span class="na">data</span><span class="p">(</span><span class="n">T</span> <span class="n">value</span><span class="p">,</span> <span class="p">{</span><span class="n">DateTime</span><span class="o">?</span> <span class="n">time</span><span class="p">})</span> <span class="o">=</span> <span class="n">ResponseData</span><span class="p">;</span>
+
   <span class="kd">factory</span> <span class="n">Response</span><span class="o">.</span><span class="na">error</span><span class="p">(</span><span class="kt">Object</span> <span class="n">error</span><span class="p">)</span> <span class="o">=</span> <span class="n">ResponseError</span><span class="p">;</span>
 
   <span class="nd">@override</span>
@@ -105,11 +141,13 @@
 
 <p>4️⃣ <strong><code class="language-plaintext highlighter-rouge">map/when</code> больше не генерируются</strong></p>
 
-<p>Если раньше у нас имелись методы по типу map или when, которые позволяли писать код с учетом всех вариаций состояний для блоков, например, то теперь freezed использует Дартовый паттерн-метчинг.</p>
+<p>Если раньше у нас имелись методы по типу map или when, которые позволяли писать код с учетом всех вариаций состояний для
+блоков, например, то теперь freezed использует Дартовый паттерн-метчинг.</p>
 
 <p><em>Было:</em></p>
 
-<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">final</span> <span class="n">model</span> <span class="o">=</span> <span class="n">Model</span><span class="o">.</span><span class="na">first</span><span class="p">(</span><span class="s">'42'</span><span class="p">);</span>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">final</span> <span class="n">model</span> <span class="o">=</span> <span class="n">Model</span><span class="o">.</span><span class="na">first</span><span class="p">(</span><span class="s">'42'</span><span class="p">);</span>
 
 <span class="kd">final</span> <span class="n">res</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="na">map</span><span class="p">(</span>
   <span class="nl">first:</span> <span class="p">(</span><span class="kt">String</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="s">'first </span><span class="si">$a</span><span class="s">'</span><span class="p">,</span>
@@ -119,7 +157,8 @@
 
 <p><em>Стало:</em></p>
 
-<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">final</span> <span class="n">model</span> <span class="o">=</span> <span class="n">Model</span><span class="o">.</span><span class="na">first</span><span class="p">(</span><span class="s">'42'</span><span class="p">);</span>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">final</span> <span class="n">model</span> <span class="o">=</span> <span class="n">Model</span><span class="o">.</span><span class="na">first</span><span class="p">(</span><span class="s">'42'</span><span class="p">);</span>
 
 <span class="kd">final</span> <span class="n">res</span> <span class="o">=</span> <span class="k">switch</span> <span class="p">(</span><span class="n">model</span><span class="p">)</span> <span class="p">{</span>
   <span class="n">First</span><span class="p">(</span><span class="o">:</span><span class="kd">final</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="s">'first </span><span class="si">$a</span><span class="s">'</span><span class="p">,</span>
@@ -127,7 +166,8 @@
 <span class="p">};</span>
 </code></pre></div></div>
 
-<p><strong>Важно! Это - “ломающее” изменение в новой версии <code class="language-plaintext highlighter-rouge">freezed</code>. После обновления варианта с <code class="language-plaintext highlighter-rouge">map</code> не будет, нужна миграция!</strong></p>
+<p><strong>Важно! Это - “ломающее” изменение в новой версии <code class="language-plaintext highlighter-rouge">freezed</code>. После обновления варианта с <code class="language-plaintext highlighter-rouge">map</code> не будет, нужна
+миграция!</strong></p>
 
 
         </div>

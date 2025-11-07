@@ -12,6 +12,8 @@ entries:
     entries:
       - title: Apple Podcasts
         url: https://podcasts.apple.com/by/podcast/flutter-middle-podcast/id1648922484
+      - title: Яндекс Музыка
+        url: https://music.yandex.ru/album/23735163
 
   - title: Видео
     entries:

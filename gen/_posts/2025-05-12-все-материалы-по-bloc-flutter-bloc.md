@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Все материалы по BLoC / flutter_bloc
+title: 🔥 Все материалы по BLoC / flutter_bloc
 date: 2025-05-12 00:00:00 +0300
 categories: post
 ---
