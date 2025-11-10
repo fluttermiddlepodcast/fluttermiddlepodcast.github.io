@@ -12,6 +12,7 @@ theme: no-style-please
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 exclude:
   - .sass-cache/
