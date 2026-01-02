@@ -1,8 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2026-01-01T18:47:16+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">С Новым годом!</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/01/%D1%81-%D0%BD%D0%BE%D0%B2%D1%8B%D0%BC-%D0%B3%D0%BE%D0%B4%D0%BE%D0%BC.html" rel="alternate" type="text/html" title="С Новым годом!" /><published>2026-01-01T00:00:00+03:00</published><updated>2026-01-01T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/01/%D1%81-%D0%BD%D0%BE%D0%B2%D1%8B%D0%BC-%D0%B3%D0%BE%D0%B4%D0%BE%D0%BC</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/01/%D1%81-%D0%BD%D0%BE%D0%B2%D1%8B%D0%BC-%D0%B3%D0%BE%D0%B4%D0%BE%D0%BC.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-01-01.gif&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2026-01-03T00:36:12+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Дамп 2025</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/02/%D0%B4%D0%B0%D0%BC%D0%BF-2025.html" rel="alternate" type="text/html" title="Дамп 2025" /><published>2026-01-02T00:00:00+03:00</published><updated>2026-01-02T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/02/%D0%B4%D0%B0%D0%BC%D0%BF-2025</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/02/%D0%B4%D0%B0%D0%BC%D0%BF-2025.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-01-02.jpg&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/458&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Все, что было опубликовано в 2025 году.&lt;/p&gt;
+
+&lt;p&gt;Самые популярные материалы помечены 🔥.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;🎧 Подкаст&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/379&quot;&gt;bloc_concurrency&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/386&quot;&gt;Самые часто используемые плагины 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/389&quot;&gt;Самые часто используемые плагины 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/390&quot;&gt;Самые часто используемые плагины 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/393&quot;&gt;Зрелость Flutter’а как технологии&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📺 Видео (YouTube)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/tPSqLA7i-3U&quot;&gt;bloc_concurrency&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/HY9UneUgTuU&quot;&gt;Запись стрима от 26.02.2025&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gBbJldZaqRE&quot;&gt;Оптимизируем build_runner&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/CMj70A5k17E&quot;&gt;make / Makefile для Flutter-проектов&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/wt_uZ8o5LUk&quot;&gt;Запись стрима от 31.01.2025&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/RdilHtdZ4zA&quot;&gt;coverage: Покрытие кода тестами&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/L-Jgfsl1lmM&quot;&gt;Шиммеры / Скелетоны&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/NxY6mGaIzKY&quot;&gt;Оптимизация GitHub Actions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/0dXXmGobrz8&quot;&gt;Git Hooks / pre-commit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/22YFyBQxTvk&quot;&gt;Вакансии для Flutter-разработчиков 2&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/0L-LgbR3EgM&quot;&gt;bloc + пагинация = ❤️&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/c-CXiQZVYBs&quot;&gt;bloc_tools: генерируем блоки из консоли&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/PfJUd0rd4-A&quot;&gt;hydrated_bloc: сохраняем состояние блоков&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/kJgPmkOI91c&quot;&gt;replay_bloc: откатываем состояния блоков и кубитов&lt;/a&gt; 🔥&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📺 Видео (Telegram)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/402&quot;&gt;Что еще добавить в репозиторий своего проекта на GitHub?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/420&quot;&gt;Вакансии для Flutter-разработчиков 2&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/421&quot;&gt;bloc + пагинация = ❤️&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/422&quot;&gt;bloc_tools: генерируем блоки из консоли&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/426&quot;&gt;hydrated_bloc: сохраняем состояние блоков&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/427&quot;&gt;replay_bloc: откатываем состояния блоков и кубитов&lt;/a&gt; 🔥&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;🔖 Посты&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/367&quot;&gt;GitHub 2024 Wrapped&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/369&quot;&gt;Блог на Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/371&quot;&gt;Flutter + Ruby / Rails&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/372&quot;&gt;StackOverflow загибается?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/401&quot;&gt;У GitHub’а отвалился squash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/403&quot;&gt;Новости / Анонсы 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/409&quot;&gt;Пиши, сокращай&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/411&quot;&gt;Выбираем самый лучший шрифт для IDE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/425&quot;&gt;Подработки: что может пойти не так&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/430&quot;&gt;freezed 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/432&quot;&gt;Все материалы по BLoC / flutter_bloc&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/442&quot;&gt;Улучшаем резюме при помощи DeepSeek / ChatGPT&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/445&quot;&gt;Эффект “разбитых окон” в разработке софта&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/446&quot;&gt;Кастомные инструменты Дарта как средства работы с техническим долгом&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/447&quot;&gt;Фоновые звуки в Apple Music&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/448&quot;&gt;2025 Stack Overflow Developer Survey&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/450&quot;&gt;Как дела у Flock&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/451&quot;&gt;Flutter Widget Previewer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;🤖 Обсуждение AI&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/404&quot;&gt;Монолог Игоря Молчанова про нейросети&lt;/a&gt; 🔥&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/406&quot;&gt;Начало истории про Vibe Coding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/407&quot;&gt;Конец истории про Vibe Coding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/408&quot;&gt;Мое мнение по всем материалам выше&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry><entry><title type="html">С Новым годом!</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/01/%D1%81-%D0%BD%D0%BE%D0%B2%D1%8B%D0%BC-%D0%B3%D0%BE%D0%B4%D0%BE%D0%BC.html" rel="alternate" type="text/html" title="С Новым годом!" /><published>2026-01-01T00:00:00+03:00</published><updated>2026-01-01T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/01/%D1%81-%D0%BD%D0%BE%D0%B2%D1%8B%D0%BC-%D0%B3%D0%BE%D0%B4%D0%BE%D0%BC</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/01/%D1%81-%D0%BD%D0%BE%D0%B2%D1%8B%D0%BC-%D0%B3%D0%BE%D0%B4%D0%BE%D0%BC.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-01-01.gif&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/456&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;🎄 С Новым годом!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;2025 год подходит к концу. Спасибо, что были со мной - читали, ставили реакции, комментировали и делились постами.&lt;/p&gt;
 
@@ -427,22 +503,4 @@ IntelliJ (Android Studio, PyCharm, Rider и так далее), то можно 
 обязательно после Middle идет Senior, а дальше только в лидство. Если план развития другой, лучше написать об этом
 заранее - советы будут ориентированы на конкретный кейс.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry><entry><title type="html">Майский дамп</title><link href="https://fluttermiddlepodcast.github.io/post/2025/06/01/%D0%BC%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF.html" rel="alternate" type="text/html" title="Майский дамп" /><published>2025-06-01T00:00:00+03:00</published><updated>2025-06-01T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/06/01/%D0%BC%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/06/01/%D0%BC%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B0%D0%BC%D0%BF.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-06-01.jpg&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/436&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Все материалы за май.&lt;/p&gt;
-
-&lt;p&gt;🎵 &lt;strong&gt;Подкаст&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://podcasts.apple.com/ru/podcast/flutter-developer-talks/id1648922484?i=1000707890164&quot;&gt;Проектирование Flutter-приложений [РЕМАСТЕР]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;🔖 &lt;strong&gt;Посты&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/428&quot;&gt;Апрельский дамп&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/430&quot;&gt;freezed 3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/432&quot;&gt;Все материалы по BLoC / flutter_bloc&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry></feed>
