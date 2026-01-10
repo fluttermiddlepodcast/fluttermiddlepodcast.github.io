@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link type="application/atom+xml" rel="alternate" href="https://fluttermiddlepodcast.github.io/feed.xml" title="Flutter Developer Talks" />
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>bloc_lint | Flutter Developer Talks</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="bloc_lint" />
+<meta name="author" content="Flutter Developer Talks" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Блог о Flutter-разработке" />
+<meta property="og:description" content="Блог о Flutter-разработке" />
+<link rel="canonical" href="https://fluttermiddlepodcast.github.io/post/2026/01/10/bloc-lint.html" />
+<meta property="og:url" content="https://fluttermiddlepodcast.github.io/post/2026/01/10/bloc-lint.html" />
+<meta property="og:site_name" content="Flutter Developer Talks" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-10T00:00:00+03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="bloc_lint" />
+<script type="application/ld+json">
+{"url":"https://fluttermiddlepodcast.github.io/post/2026/01/10/bloc-lint.html","@type":"BlogPosting","description":"Блог о Flutter-разработке","headline":"bloc_lint","dateModified":"2026-01-10T00:00:00+03:00","datePublished":"2026-01-10T00:00:00+03:00","author":{"@type":"Person","name":"Flutter Developer Talks"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://fluttermiddlepodcast.github.io/post/2026/01/10/bloc-lint.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+  <link rel="stylesheet" href="https://fluttermiddlepodcast.github.io/assets/css/main.css" />
+</head><body>
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <a href="https://fluttermiddlepodcast.github.io">..</a>
+<h1>bloc_lint</h1>
+<p><img src="/assets/posts/2026-01-10.jpg" width="720" /></p>
+
+<p>Продолжаем знакомиться с полезными плагинами и утилитами для <a href="https://t.me/fluttermiddlepodcast/432">bloc</a>
+и <a href="https://t.me/fluttermiddlepodcast/432">flutter_bloc</a>.</p>
+
+<p>В этом посте речь пойдет о <a href="https://pub.dev/packages/bloc_lint">bloc_lint</a>. Это официальный набор правил линтера от
+команды разработки блока.</p>
+
+<p>Как использовать написано в <a href="https://pub.dev/packages/bloc_lint#quick-start">документации</a>. Скажу лишь, что для этого
+потребуется <a href="https://t.me/fluttermiddlepodcast/423">bloc_tools</a>, мы его
+уже <a href="https://t.me/fluttermiddlepodcast/423">разбирали</a>.</p>
+
+<p><u>Правила, которые уже есть в пакете (рекомендованые отмечены плюсиком):</u></p>
+
+<p>— <strong><a href="https://bloclibrary.dev/lint-rules/avoid_build_context_extensions">avoid_build_context_extensions</a></strong></p>
+
+<p>Избегать использования <code class="language-plaintext highlighter-rouge">BuildContext</code> для обращения как к самому блоку, так и к его состоянию. Вместо методов <code class="language-plaintext highlighter-rouge">read</code>,
+<code class="language-plaintext highlighter-rouge">watch</code> и <code class="language-plaintext highlighter-rouge">select</code> контекста нужно использовать <code class="language-plaintext highlighter-rouge">BlocProvider.of</code> и виджеты пакета <code class="language-plaintext highlighter-rouge">flutter_bloc</code>.</p>
+
+<p>Более подробно можно почитать в
+<a href="https://bloclibrary.dev/lint-rules/avoid_build_context_extensions/#rationale">документации</a>.</p>
+
+<p>— <strong><a href="https://bloclibrary.dev/lint-rules/avoid_flutter_imports">avoid_flutter_imports</a></strong> ➕</p>
+
+<p>Избегать использование зависимостей Флаттера в блоках и кубитах. Полезно для сохранения в бизнес-компонентах только
+бизнес-логики - без зависимостей фреймворка.</p>
+
+<p>Примеры и подробности <a href="https://bloclibrary.dev/lint-rules/avoid_flutter_imports/">тут</a>.</p>
+
+<p>— <strong><a href="https://bloclibrary.dev/lint-rules/avoid_public_bloc_methods">avoid_public_bloc_methods</a></strong> ➕</p>
+
+<p>Изберать использования публичных методов в блоках. Только блоках, к кубитам не относится. Поскольку в правильной
+реализации блоков мы оперируем событиями и состояниями, торчащие наружу методы не нужны.</p>
+
+<p>Ознакомиться подробнее можно по <a href="https://bloclibrary.dev/lint-rules/avoid_public_bloc_methods/">ссылке</a>.</p>
+
+<p>— <strong><a href="https://bloclibrary.dev/lint-rules/avoid_public_fields">avoid_public_fields</a></strong> ➕</p>
+
+<p>Избегать публичных полей в блоках и кубитах. Аналогично правилу выше - в идеале мы оперируем только состоянием, и данные
+не должны получаться каким-либо другим образом.</p>
+
+<p>Документация с примерами <a href="https://bloclibrary.dev/lint-rules/avoid_public_fields/">тут</a>.</p>
+
+<p>— <strong><a href="https://bloclibrary.dev/lint-rules/prefer_bloc">prefer_bloc</a></strong></p>
+
+<p>Избегать использования кубитов, использовать только блоки. Моя практика показывает, что полностью отказываться от
+кубитов не стоит, они порой полезны. Однако если вы сторонник использования только блоков, то правило как раз сделано
+для большего контроля таких ситуаций.</p>
+
+<p>Подробнее про само правило и бенефиты блока написано в <a href="https://bloclibrary.dev/lint-rules/prefer_bloc/">документации</a>.</p>
+
+<p>— <strong><a href="https://bloclibrary.dev/lint-rules/prefer_build_context_extensions">prefer_build_context_extensions</a></strong></p>
+
+<p>Избегать работы с блоком всеми способами, кроме как обращением к нему через расширение <code class="language-plaintext highlighter-rouge">BuildContext</code>. Используем
+<code class="language-plaintext highlighter-rouge">context.read</code>, <code class="language-plaintext highlighter-rouge">context.watch</code>, и <code class="language-plaintext highlighter-rouge">context.select</code>. <code class="language-plaintext highlighter-rouge">BlocProvider.of</code>, <code class="language-plaintext highlighter-rouge">RepositoryProvider.of</code>, <code class="language-plaintext highlighter-rouge">BlocBuilder</code> или
+<code class="language-plaintext highlighter-rouge">BlocSelector</code> нельзя. Никогда не видел проектов, где работают с блоком именно таким образом, но правило если что есть.</p>
+
+<p>Больше деталей и объяснений <a href="https://bloclibrary.dev/lint-rules/prefer_build_context_extensions/">тут</a>.</p>
+
+<p>— <strong><a href="https://bloclibrary.dev/lint-rules/prefer_cubit">prefer_cubit</a></strong></p>
+
+<p>Избегать использования блоков, использовать только кубиты. Видел несколько проектов, которые построены на кубитах, и
+блоков там вообще нет. Так что решение имеет место быть, и правило для него имеется.</p>
+
+<p>Подробнее про само правило и бенефиты кубита написано в <a href="https://bloclibrary.dev/lint-rules/prefer_bloc/">документации</a>.</p>
+
+<p>— <strong><a href="https://bloclibrary.dev/lint-rules/prefer_file_naming_conventions">prefer_file_naming_conventions</a></strong> ➕</p>
+
+<p>Размещать блоки и кубиты в отдельных файлах с определенным неймингом. Нельзя размещать <code class="language-plaintext highlighter-rouge">CounterBloc</code> в файле
+<code class="language-plaintext highlighter-rouge">main.dart</code>, можно только в <code class="language-plaintext highlighter-rouge">counter_bloc.dart</code>.</p>
+
+<p>Больше о правиле <a href="https://bloclibrary.dev/lint-rules/prefer_file_naming_conventions/">тут</a>.</p>
+
+<p>— <strong><a href="https://bloclibrary.dev/lint-rules/prefer_void_public_cubit_methods">prefer_void_public_cubit_methods</a></strong> ➕</p>
+
+<p>Избегать публичных не <code class="language-plaintext highlighter-rouge">void</code>-методов в кубитах. Поскольку информацию из кубита мы получаем через состояние, любые
+публичные методы должны только уведомлять о совершении действия, а не запрашивать данные в обход стейта.</p>
+
+<p>Информация о правиле и примеры есть в
+<a href="https://bloclibrary.dev/lint-rules/prefer_void_public_cubit_methods/">документации</a>.</p>
+
+<p>▶ <a href="https://pub.dev/packages/bloc_lint">bloc_lint на pub.dev</a></p>
+
+
+        </div>
+    </main>
+    </body>
+</html>
