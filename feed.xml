@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2026-01-20T08:53:34+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">bloc_test</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html" rel="alternate" type="text/html" title="bloc_test" /><published>2026-01-20T00:00:00+03:00</published><updated>2026-01-20T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-01-20.jpg&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2026-01-20T08:54:30+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">bloc_test</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html" rel="alternate" type="text/html" title="bloc_test" /><published>2026-01-20T00:00:00+03:00</published><updated>2026-01-20T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-01-20.jpg&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/463&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
 
@@ -21,18 +21,21 @@
 &lt;p&gt;&lt;u&gt;Написал тесты для следующих кейсов:&lt;/u&gt;&lt;/p&gt;
 
 &lt;p&gt;— &lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example/blob/master/test/features/users/users_bloc_test.dart&quot;&gt;Инициализация, постраничная загрузка и загрузка последней страницы с данными для экрана с
-пользователями&lt;/a&gt;.
-— &lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example/blob/master/test/features/profile/profile_bloc_test.dart&quot;&gt;Инициализация, загрузки, logIn и logOut
+пользователями&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;— &lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example/blob/master/test/features/profile/profile_bloc_test.dart&quot;&gt;Инициализация, загрузки, logIn и logOut
 профиля&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;u&gt;Помимо создания тестов для блоков, было сделано:&lt;/u&gt;&lt;/p&gt;
 
 &lt;p&gt;— Конфиг для тестов в &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;. Сам файл
 &lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example/blob/master/.github/workflows/flutter.yaml&quot;&gt;тут&lt;/a&gt;, внизу будет
-секция &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tests&lt;/code&gt;.
-— Моки для &lt;a href=&quot;https://t.me/fluttermiddlepodcast/426&quot;&gt;hydrated_bloc&lt;/a&gt; и репозиториев из проекта. Реализованы через
-&lt;a href=&quot;https://pub.dev/packages/mockito&quot;&gt;mockito&lt;/a&gt;.
-— Обновление Флаттера и рефакторинг под новые синтаксические фичи Дарта.&lt;/p&gt;
+секция &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tests&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;— Моки для &lt;a href=&quot;https://t.me/fluttermiddlepodcast/426&quot;&gt;hydrated_bloc&lt;/a&gt; и репозиториев из проекта. Реализованы через
+&lt;a href=&quot;https://pub.dev/packages/mockito&quot;&gt;mockito&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;— Обновление Флаттера и рефакторинг под новые синтаксические фичи Дарта.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;u&gt;Ознакомиться со всеми изменениями можно по
 [ссылке](https://github.com/fluttermiddlepodcast/bloc_example/tree/master/test).&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
