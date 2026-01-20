@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link type="application/atom+xml" rel="alternate" href="https://fluttermiddlepodcast.github.io/feed.xml" title="Flutter Developer Talks" />
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>bloc_test | Flutter Developer Talks</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="bloc_test" />
+<meta name="author" content="Flutter Developer Talks" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Блог о Flutter-разработке" />
+<meta property="og:description" content="Блог о Flutter-разработке" />
+<link rel="canonical" href="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html" />
+<meta property="og:url" content="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html" />
+<meta property="og:site_name" content="Flutter Developer Talks" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-20T00:00:00+03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="bloc_test" />
+<script type="application/ld+json">
+{"url":"https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html","@type":"BlogPosting","description":"Блог о Flutter-разработке","headline":"bloc_test","dateModified":"2026-01-20T00:00:00+03:00","datePublished":"2026-01-20T00:00:00+03:00","author":{"@type":"Person","name":"Flutter Developer Talks"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+  <link rel="stylesheet" href="https://fluttermiddlepodcast.github.io/assets/css/main.css" />
+</head><body>
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <a href="https://fluttermiddlepodcast.github.io">..</a>
+<h1>bloc_test</h1>
+<p><img src="/assets/posts/2026-01-20.jpg" width="720" /></p>
+
+<p><a href="https://t.me/fluttermiddlepodcast/463">Читать в Telegram</a></p>
+
+<p>❗️ <u>За один пост нормально покрыть тему тестирвоания блоков не получится. Больше информации по возможностям
+[bloc_test](https://pub.dev/packages/bloc_test#unit-test-with-bloctest) можно найти в
+[документации](https://pub.dev/packages/bloc_test), а больше примеров конкретно по
+[bloc_example](https://github.com/fluttermiddlepodcast/bloc_example) в
+[репозитории](https://github.com/fluttermiddlepodcast/bloc_example) проекта.</u></p>
+
+<p>Последний официальный плагин для <a href="https://pub.dev/packages/bloc">bloc</a> и
+<a href="https://pub.dev/packages/flutter_bloc">flutter_bloc</a>, который мы не разобрали.</p>
+
+<p><a href="https://pub.dev/packages/bloc_test">bloc_test</a> - это пакет для тестирования блоков и кубитов. Он содержит готовые
+методы
+для написания тестов для бизнес-компонентов.</p>
+
+<p>В нашем проекте для тестирования <a href="https://github.com/fluttermiddlepodcast/bloc_example">bloc_example</a> теперь есть тесты,
+они уже находятся в <a href="https://github.com/fluttermiddlepodcast/bloc_example/blob/master/test">мастере</a>.</p>
+
+<p><u>Написал тесты для следующих кейсов:</u></p>
+
+<p>— <a href="https://github.com/fluttermiddlepodcast/bloc_example/blob/master/test/features/users/users_bloc_test.dart">Инициализация, постраничная загрузка и загрузка последней страницы с данными для экрана с
+пользователями</a>.
+— <a href="https://github.com/fluttermiddlepodcast/bloc_example/blob/master/test/features/profile/profile_bloc_test.dart">Инициализация, загрузки, logIn и logOut
+профиля</a>.</p>
+
+<p><u>Помимо создания тестов для блоков, было сделано:</u></p>
+
+<p>— Конфиг для тестов в <a href="https://github.com/features/actions">GitHub Actions</a>. Сам файл
+<a href="https://github.com/fluttermiddlepodcast/bloc_example/blob/master/.github/workflows/flutter.yaml">тут</a>, внизу будет
+секция <code class="language-plaintext highlighter-rouge">tests</code>.
+— Моки для <a href="https://t.me/fluttermiddlepodcast/426">hydrated_bloc</a> и репозиториев из проекта. Реализованы через
+<a href="https://pub.dev/packages/mockito">mockito</a>.
+— Обновление Флаттера и рефакторинг под новые синтаксические фичи Дарта.</p>
+
+<p><strong><u>Ознакомиться со всеми изменениями можно по
+[ссылке](https://github.com/fluttermiddlepodcast/bloc_example/tree/master/test).</u></strong></p>
+
+<p>▶ <a href="https://pub.dev/packages/bloc_test">bloc_test на pub.dev</a></p>
+
+
+        </div>
+    </main>
+    </body>
+</html>
