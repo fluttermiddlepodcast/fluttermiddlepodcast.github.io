@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2026-01-20T08:50:41+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">bloc_test</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html" rel="alternate" type="text/html" title="bloc_test" /><published>2026-01-20T00:00:00+03:00</published><updated>2026-01-20T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-01-20.jpg&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" /><updated>2026-01-20T08:53:34+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">bloc_test</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html" rel="alternate" type="text/html" title="bloc_test" /><published>2026-01-20T00:00:00+03:00</published><updated>2026-01-20T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-01-20.jpg&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/463&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;❗️ &lt;u&gt;За один пост нормально покрыть тему тестирвоания блоков не получится. Больше информации по возможностям
-[bloc_test](https://pub.dev/packages/bloc_test#unit-test-with-bloctest) можно найти в
-[документации](https://pub.dev/packages/bloc_test), а больше примеров конкретно по
-[bloc_example](https://github.com/fluttermiddlepodcast/bloc_example) в
-[репозитории](https://github.com/fluttermiddlepodcast/bloc_example) проекта.&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;❗️ За один пост нормально покрыть тему тестирвоания блоков не получится. Больше информации по возможностям
+&lt;a href=&quot;https://pub.dev/packages/bloc_test#unit-test-with-bloctest&quot;&gt;bloc_test&lt;/a&gt; можно найти в
+&lt;a href=&quot;https://pub.dev/packages/bloc_test&quot;&gt;документации&lt;/a&gt;, а больше примеров конкретно по
+&lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example&quot;&gt;bloc_example&lt;/a&gt; в
+&lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example&quot;&gt;репозитории&lt;/a&gt; проекта.&lt;/p&gt;
 
 &lt;p&gt;Последний официальный плагин для &lt;a href=&quot;https://pub.dev/packages/bloc&quot;&gt;bloc&lt;/a&gt; и
 &lt;a href=&quot;https://pub.dev/packages/flutter_bloc&quot;&gt;flutter_bloc&lt;/a&gt;, который мы не разобрали.&lt;/p&gt;
