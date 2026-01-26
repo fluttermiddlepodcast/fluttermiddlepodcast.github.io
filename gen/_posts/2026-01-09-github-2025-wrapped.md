@@ -5,7 +5,7 @@ date: 2026-01-09 00:00:00 +0300
 categories: post
 ---
 
-<img src="/assets/github/2024_wrapped_personal.png" width="720" />
+<img src="/assets/github/2024_wrapped_personal.png" width="320" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/459)
 
@@ -18,7 +18,7 @@ categories: post
 
 Стало чуть больше звезд в репозиториях, что даже немного удивляет - некоторые из них не обновляются довольно давно.
 
-<img src="/assets/github/2025_wrapped_podcast.jpg" width="720" />
+<img src="/assets/github/2025_wrapped_podcast.jpg" width="320" />
 
 **🎧 Итоги для аккаунта подкаста**
 

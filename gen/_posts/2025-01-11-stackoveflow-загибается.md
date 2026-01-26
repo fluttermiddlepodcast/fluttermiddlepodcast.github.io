@@ -5,7 +5,7 @@ date: 2025-01-11 00:00:00 +0300
 categories: post
 ---
 
-<img src="/assets/posts/2025-01-11.png" width="720" />
+<img src="/assets/posts/2025-01-11.png" width="320" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/372)
 
