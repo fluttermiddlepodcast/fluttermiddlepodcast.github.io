@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 🔥 Мои плагины для IntelliJ IDEA
+title: Мои плагины для IntelliJ IDEA
 date: 2024-07-28 00:00:00 +0300
 categories: post
 ---
