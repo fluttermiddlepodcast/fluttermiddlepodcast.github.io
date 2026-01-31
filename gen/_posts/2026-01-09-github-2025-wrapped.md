@@ -3,6 +3,7 @@ layout: post
 title: GitHub 2025 Wrapped
 date: 2026-01-09 00:00:00 +0300
 categories: post
+description: Статистика GitHub за 2025 год - коммиты, репозитории, вклад в open source, личная аналитика разработки
 ---
 
 <img src="/assets/github/2024_wrapped_personal.png" width="320" />

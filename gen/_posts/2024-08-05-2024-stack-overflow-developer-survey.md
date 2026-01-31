@@ -3,6 +3,7 @@ layout: post
 title: 2024 Stack Overflow Developer Survey
 date: 2024-08-05 00:00:00 +0300
 categories: post
+description: Обзор результатов ежегодного опроса Stack Overflow 2024, тренды в разработке, популярные технологии, зарплаты разработчиков, статистика по Flutter и Dart
 ---
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/285)

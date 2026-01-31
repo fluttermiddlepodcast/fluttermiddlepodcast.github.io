@@ -3,6 +3,7 @@ layout: post
 title: GitHub 2024 Wrapped
 date: 2025-01-01 00:00:00 +0300
 categories: post
+description: Итоги года на GitHub - статистика коммитов, популярные репозитории, активность в open source, личная аналитика разработки за 2024 год
 ---
 
 <img src="/assets/github/2024_wrapped_personal.png" width="320" />

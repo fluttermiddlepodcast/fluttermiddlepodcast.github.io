@@ -3,6 +3,7 @@ layout: post
 title: Flutter Widget Previewer
 date: 2025-08-15 00:00:00 +0300
 categories: post
+description: Обзор Flutter Widget Previewer для предпросмотра виджетов, ускорение разработки UI, hot reload альтернативы, инструменты для быстрой итерации интерфейса
 ---
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/451)

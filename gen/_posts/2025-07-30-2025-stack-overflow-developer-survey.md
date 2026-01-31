@@ -3,6 +3,7 @@ layout: post
 title: 2025 Stack Overflow Developer Survey
 date: 2025-07-30 00:00:00 +0300
 categories: post
+description: Результаты опроса разработчиков Stack Overflow 2025, тренды в IT, популярность Flutter и Dart, зарплаты программистов, изменения за год
 ---
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/448)

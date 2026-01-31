@@ -4,7 +4,8 @@ github_username: fluttermiddlepodcast
 domain: fluttermiddlepodcast.github.io
 url: https://fluttermiddlepodcast.github.io
 author: Flutter Developer Talks
-description: Блог о Flutter-разработке
+description: Блог и подкаст о Flutter-разработке
+lang: ru
 
 favicon: "favicon.png"
 

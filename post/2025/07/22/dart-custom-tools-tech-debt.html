@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link type="application/atom+xml" rel="alternate" href="https://fluttermiddlepodcast.github.io/feed.xml" title="Flutter Developer Talks" />
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Кастомные инструменты Дарта как средства работы с техническим долгом | Flutter Developer Talks</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Кастомные инструменты Дарта как средства работы с техническим долгом" />
+<meta name="author" content="Flutter Developer Talks" />
+<meta property="og:locale" content="ru" />
+<meta name="description" content="Создание custom Dart tools для управления техническим долгом, автоматизация рефакторинга, написание собственных инструментов для анализа и улучшения кода" />
+<meta property="og:description" content="Создание custom Dart tools для управления техническим долгом, автоматизация рефакторинга, написание собственных инструментов для анализа и улучшения кода" />
+<link rel="canonical" href="https://fluttermiddlepodcast.github.io/post/2025/07/22/dart-custom-tools-tech-debt.html" />
+<meta property="og:url" content="https://fluttermiddlepodcast.github.io/post/2025/07/22/dart-custom-tools-tech-debt.html" />
+<meta property="og:site_name" content="Flutter Developer Talks" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-07-22T00:00:02+03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Кастомные инструменты Дарта как средства работы с техническим долгом" />
+<script type="application/ld+json">
+{"url":"https://fluttermiddlepodcast.github.io/post/2025/07/22/dart-custom-tools-tech-debt.html","@type":"BlogPosting","description":"Создание custom Dart tools для управления техническим долгом, автоматизация рефакторинга, написание собственных инструментов для анализа и улучшения кода","headline":"Кастомные инструменты Дарта как средства работы с техническим долгом","dateModified":"2025-07-22T00:00:02+03:00","datePublished":"2025-07-22T00:00:02+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://fluttermiddlepodcast.github.io/post/2025/07/22/dart-custom-tools-tech-debt.html"},"author":{"@type":"Person","name":"Flutter Developer Talks"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+  <link rel="stylesheet" href="https://fluttermiddlepodcast.github.io/assets/css/main.css" />
+</head><body>
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <a href="https://fluttermiddlepodcast.github.io">..</a>
+<h1>Кастомные инструменты Дарта как средства работы с техническим долгом</h1>
+<p><img src="/assets/windows/technical_debt_output.jpg" width="320" /></p>
+
+<p><a href="https://t.me/fluttermiddlepodcast/446">Читать в Telegram</a></p>
+
+<p>Дарт и его тулы в купе с AI дают нам возможность быстро создавать собственные инструменты для работы с техническим
+долгом.</p>
+
+<p>Один из возможных способов чинить разбитые окна - собственные аннотации и генерация отчетов о состоянии кода по ним.</p>
+
+<p>Сделал <a href="https://github.com/fluttermiddlepodcast/technical_debt">небольшой демонстрационный проект</a>, с помощью которого
+можно помечать технический долг (любой элемент кода в проекте), и генерировать отчет в формате HTML для визуализации
+имеющихся проблем.</p>
+
+<p><strong>В коде будет выглядеть так:</strong></p>
+
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@TechnicalDebt</span><span class="p">(</span>
+  <span class="nl">author:</span> <span class="s">'fluttermiddlepodcast'</span><span class="p">,</span>
+  <span class="nl">description:</span> <span class="s">'Move to UI-Kit'</span><span class="p">,</span>
+  <span class="nl">severity:</span> <span class="n">Severity</span><span class="o">.</span><span class="na">minor</span><span class="p">,</span>
+  <span class="nl">deadline:</span> <span class="s">'2025-12-12'</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="kd">class</span> <span class="nc">BEShimmer</span> <span class="kd">extends</span> <span class="n">StatelessWidget</span> <span class="p">{</span>
+  <span class="kd">final</span> <span class="kt">double</span> <span class="n">height</span><span class="p">;</span>
+  <span class="kd">final</span> <span class="kt">double</span> <span class="n">width</span><span class="p">;</span>
+
+  <span class="kd">const</span> <span class="n">BEShimmer</span><span class="p">({</span>
+    <span class="k">super</span><span class="o">.</span><span class="na">key</span><span class="p">,</span>
+    <span class="kd">required</span> <span class="k">this</span><span class="o">.</span><span class="na">height</span><span class="p">,</span>
+    <span class="kd">required</span> <span class="k">this</span><span class="o">.</span><span class="na">width</span><span class="p">,</span>
+  <span class="p">});</span>
+
+  <span class="nd">@override</span>
+  <span class="n">Widget</span> <span class="n">build</span><span class="p">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">Shimmer</span><span class="o">.</span><span class="na">fromColors</span><span class="p">(</span>
+      <span class="nl">baseColor:</span> <span class="n">Colors</span><span class="o">.</span><span class="na">grey</span><span class="o">.</span><span class="na">shade300</span><span class="p">,</span>
+      <span class="nl">highlightColor:</span> <span class="n">Colors</span><span class="o">.</span><span class="na">grey</span><span class="o">.</span><span class="na">shade50</span><span class="p">,</span>
+      <span class="nl">child:</span> <span class="n">SizedBox</span><span class="p">(</span>
+        <span class="nl">height:</span> <span class="n">height</span><span class="p">,</span>
+        <span class="nl">width:</span> <span class="n">width</span><span class="p">,</span>
+        <span class="nl">child:</span> <span class="kd">const</span> <span class="n">ColoredBox</span><span class="p">(</span>
+          <span class="nl">color:</span> <span class="n">Colors</span><span class="o">.</span><span class="na">white</span><span class="p">,</span>
+        <span class="p">),</span>
+      <span class="p">),</span>
+    <span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>В <a href="https://github.com/fluttermiddlepodcast/bloc_example">bloc_example</a> сделал
+ветку <a href="https://github.com/fluttermiddlepodcast/bloc_example/tree/technical_debt">technical_debt</a>, где можно попробовать
+самим сгенерировать отчет, и посмотреть на сгенерированный результат.</p>
+
+<p><strong>Просто выгружаете проект, и дальше из терминала после <code class="language-plaintext highlighter-rouge">fvm pub get</code> выполняете:</strong></p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>fvm flutter pub run build_runner build <span class="nt">--delete-conflicting-outputs</span>
+</code></pre></div></div>
+
+<p>Это - не готовое решение, а лишь небольшой пример, сделанный меньше чем за час при помощи AI. Вы можете доработать его и
+использовать у себя в проектах (о том, что нужно сделать,
+написал <a href="https://github.com/fluttermiddlepodcast/technical_debt?tab=readme-ov-file#%D0%B5%D1%81%D0%BB%D0%B8-%D0%B1%D1%83%D0%B4%D0%B5%D1%82%D0%B5-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D1%83-%D1%81%D0%B5%D0%B1%D1%8F-%D0%B2-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B5">тут</a>).</p>
+
+<p>Дарт - это не только про бизнес-логику и плагины. На нем можно писать инструменты, помогающие в прикладной разработке.
+Полученные данные можно интегрировать в ваши CI-системы, строить отчеты о росте проблем в проекте (или их снижении), а
+так же держать руку на пульсе и не давать разбивать еще больше окон (а так же чинить то, что есть).</p>
+
+
+        </div>
+    </main>
+    </body>
+</html>

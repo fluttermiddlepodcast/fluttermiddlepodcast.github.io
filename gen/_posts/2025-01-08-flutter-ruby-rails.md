@@ -3,6 +3,7 @@ layout: post
 title: Flutter + Ruby / Rails
 date: 2025-01-08 00:00:00 +0300
 categories: post
+description: Связка Flutter и Ruby on Rails для full-stack разработки, создание API на Rails для Flutter приложений, опыт использования Ruby для backend
 ---
 
 <img src="/assets/posts/2025-01-08.jpg" width="320" />
