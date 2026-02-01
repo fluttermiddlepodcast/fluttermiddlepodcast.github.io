@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" hreflang="ru" /><updated>2026-01-31T12:26:18+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог и подкаст о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">🔥 Optimistic updates</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/26/optimistic-updates.html" rel="alternate" type="text/html" title="🔥 Optimistic updates" /><published>2026-01-26T00:00:00+03:00</published><updated>2026-01-26T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/26/optimistic-updates</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/26/optimistic-updates.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/468&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" hreflang="ru" /><updated>2026-02-01T16:18:14+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог и подкаст о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Январский дамп</title><link href="https://fluttermiddlepodcast.github.io/post/2026/02/01/january-dump.html" rel="alternate" type="text/html" title="Январский дамп" /><published>2026-02-01T00:00:00+03:00</published><updated>2026-02-01T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/02/01/january-dump</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/02/01/january-dump.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-02-01.png&quot; width=&quot;320&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/469&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Все материалы за январь 2026 года.&lt;/p&gt;
+
+&lt;p&gt;🔖 &lt;strong&gt;Посты&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;— &lt;a href=&quot;https://t.me/fluttermiddlepodcast/458&quot;&gt;Дамп 2025&lt;/a&gt;
+— &lt;a href=&quot;https://t.me/fluttermiddlepodcast/459&quot;&gt;GitHub 2025 Wrapped&lt;/a&gt;
+— &lt;a href=&quot;https://t.me/fluttermiddlepodcast/461&quot;&gt;bloc_lint&lt;/a&gt;
+— &lt;a href=&quot;https://t.me/fluttermiddlepodcast/463&quot;&gt;bloc_test&lt;/a&gt;
+— &lt;a href=&quot;https://t.me/fluttermiddlepodcast/464&quot;&gt;Разбор “Чистого года” Роберта Мартина от Кирилла Мокевнина&lt;/a&gt;
+— &lt;a href=&quot;https://t.me/fluttermiddlepodcast/465&quot;&gt;Плохой антикриз&lt;/a&gt;
+— &lt;a href=&quot;https://t.me/fluttermiddlepodcast/468&quot;&gt;Optimistic updates&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;📑 &lt;strong&gt;Оффтоп&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;— &lt;a href=&quot;https://t.me/fluttermiddlepodcast/462&quot;&gt;Цены на память - это какой-то пипец&lt;/a&gt;
+— &lt;a href=&quot;https://t.me/fluttermiddlepodcast/466&quot;&gt;Майкрософт ломает Виндовс апдейтами + опрос по стабильности работы ОС&lt;/a&gt;&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry><entry><title type="html">🔥 Optimistic updates</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/26/optimistic-updates.html" rel="alternate" type="text/html" title="🔥 Optimistic updates" /><published>2026-01-26T00:00:00+03:00</published><updated>2026-01-26T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/26/optimistic-updates</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/26/optimistic-updates.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/468&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Некоторые действия пользователя в приложениях порой требуют мгновенной реакции в UI. Добавление товаров в Избранное,
 лайки в соц. сетях, отметка задачи в TODO-листе как выполненной - все это делается в моменте. Пользователь не хочет
@@ -439,52 +458,4 @@ NAS, называется ;)&lt;/p&gt;</content><author><name>Flutter Developer 
   &lt;li&gt;
     &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Unconstrained&lt;/code&gt;-виджеты: на данный момент отображаются только на половину экрана. В будущем поведение изменится.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry><entry><title type="html">Как дела у Flock</title><link href="https://fluttermiddlepodcast.github.io/post/2025/08/06/how-is-flock-doing.html" rel="alternate" type="text/html" title="Как дела у Flock" /><published>2025-08-06T00:00:00+03:00</published><updated>2025-08-06T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/08/06/how-is-flock-doing</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/08/06/how-is-flock-doing.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/450&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://getflocked.dev/&quot;&gt;Flock&lt;/a&gt; - это форк Флаттера. Подробнее о нем рассказывал
-в &lt;a href=&quot;https://t.me/fluttermiddlepodcast/348&quot;&gt;этом посте&lt;/a&gt;. Там и о причинах создания ответвления, и о том, что я думаю по
-этому вопросу. В видео-формате есть &lt;a href=&quot;https://www.youtube.com/watch?v=zsEOVkOf3DU&quot;&gt;ролик Станислава Чернышева&lt;/a&gt;, тоже
-рекомендую ознакомиться. В нем больше информации и рассуждений, с конкретными примерами из уже существующих на тот
-момент репозиториев.&lt;/p&gt;
-
-&lt;p&gt;И вот, решил я посмотреть, какой прогресс у команды Флока за 10 месяцев с момента анонса.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;💻 Репозитории, сайт, и их содержимое&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Сейчас Flock - это копия
-Flutter. &lt;a href=&quot;https://github.com/join-the-flock/flock/issues/5#issuecomment-2770290117&quot;&gt;Разработчики&lt;/a&gt; занимаются
-налаживанием сборки и фундамента для дальнейшей работы с платформой. Это написано на главной странице их сайта. Ниже
-будут ссылки с ответами на вопросы авторов, там эта информация тоже подтверждается.&lt;/p&gt;
-
-&lt;p&gt;Часть разделов сайта как были с Coming soon, так и остается с ним. Гайдов по работе с форком тоже нет. Последний пост в
-блоге - приглашение к дискуссии на GitHub, и датируется он 19 ноября 2024 года.&lt;/p&gt;
-
-&lt;p&gt;Имеется &lt;a href=&quot;https://github.com/join-the-flock/flock-patches&quot;&gt;репозиторий с патчами&lt;/a&gt;, но их не много. Есть
-даже &lt;a href=&quot;https://github.com/join-the-flock/flock-demo&quot;&gt;демо&lt;/a&gt;, где дефолтный флаттеровский счетчик запускается через
-Flock. &lt;a href=&quot;https://github.com/join-the-flock/nest/discussions&quot;&gt;Секция с обсуждениями&lt;/a&gt; не пополняется дискуссиями с конца
-прошлого года - видимо, интерес к проекту очень быстро пропал.&lt;/p&gt;
-
-&lt;p&gt;В &lt;a href=&quot;https://github.com/join-the-flock/flock/issues&quot;&gt;issues&lt;/a&gt; основного репозитория можно найти следующее:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/join-the-flock/flock/issues/5&quot;&gt;На вопрос про дальнейшее развитие форка четкого ответа нет&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/join-the-flock/flock/issues/5#issuecomment-2770290117&quot;&gt;Из 40 человек, которые хотели контрибьютить в Flock, до реального вклада дошел только 1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/join-the-flock/flock/issues/5#issuecomment-2770290117&quot;&gt;Команда Flock: 3 человека, из которых 2 основателя и 1 сторонний контрибьютор&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;❓ Что все это значит, и почему так обстоят дела&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Когда форк заработает (если вообще заработает) - не понятно. Как и не понятна идея создания форка без предварительной
-подготовки и наличия единомышленников, которые сразу после анонса будут пилить фичи и развивать форк.&lt;/p&gt;
-
-&lt;p&gt;Расчет, как мне кажется, был на гарантированный приток контрибьюторов и отклик у большого числа людей, чего не произошло
-почти за год существования Flock’а. Явные улучшения, которые предлагались изначально (по-типу включения поддержки
-Harmony OS и других платформ, отсутствующих во Flutter’е из коробки), почему-то не были реализованы.&lt;/p&gt;
-
-&lt;p&gt;Поспевать за всем тем, что добавляется во Flutter, такой маленькой командой невозможно. Авторы Flock жаловались на
-медленные процессы принятия изменений во Flutter, а получается так, что и у них этот момент тоже может повториться. Как
-будут подбираться эксперты, которые берут на себя ответственность за влитые правки? Кто будет работать над разрешением
-конфликтов? Вопросов больше, чем ответов.&lt;/p&gt;
-
-&lt;p&gt;В любом случае посмотрим, к чему все это дело приведет. Пока ничего не закрыто и не заархивировано, есть коммиты и
-небольшие активности, говорить о прекращении существовании Флока не получится.&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry></feed>
