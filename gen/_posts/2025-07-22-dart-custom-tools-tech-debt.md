@@ -6,7 +6,7 @@ categories: post
 description: Создание custom Dart tools для управления техническим долгом, автоматизация рефакторинга, написание собственных инструментов для анализа и улучшения кода
 ---
 
-<img src="/assets/windows/technical_debt_output.jpg" width="320" />
+<img src="/assets/windows/technical_debt_output.jpg" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/446)
 

@@ -6,7 +6,7 @@ categories: post
 description: Обзор материалов февраля 2025 - подкасты, видео, посты, итоги работы за месяц, популярный контент
 ---
 
-<img src="/assets/posts/2025-03-01.jpg" width="320" />
+<img src="/assets/posts/2025-03-01.jpg" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/396)
 

@@ -6,7 +6,7 @@ categories: post
 description: Рост цен на жесткие диски и оперативную память в 4-5 раз, сравнение стоимости HDD и SSD в 2023 и 2026 годах, проблемы сборки домашнего NAS и ПК
 ---
 
-<img src="/assets/posts/2026-01-18.png" width="320" />
+<img src="/assets/posts/2026-01-18.png" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/462)
 

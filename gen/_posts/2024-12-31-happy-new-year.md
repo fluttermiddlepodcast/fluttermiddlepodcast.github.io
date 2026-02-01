@@ -6,7 +6,7 @@ categories: post
 description: Новогодний пост с поздравлениями, итоги 2024 года для Flutter Developer Talks, планы на будущее, благодарности аудитории и подписчикам подкаста
 ---
 
-<img src="/assets/posts/2024-12-31.jpg" width="320" />
+<img src="/assets/posts/2024-12-31.jpg" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/366)
 

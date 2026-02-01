@@ -6,7 +6,7 @@ categories: post
 description: Статистика GitHub за 2025 год - коммиты, репозитории, вклад в open source, личная аналитика разработки
 ---
 
-<img src="/assets/github/2024_wrapped_personal.png" width="320" />
+<img src="/assets/github/2024_wrapped_personal.png" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/459)
 
@@ -19,7 +19,7 @@ description: Статистика GitHub за 2025 год - коммиты, ре
 
 Стало чуть больше звезд в репозиториях, что даже немного удивляет - некоторые из них не обновляются довольно давно.
 
-<img src="/assets/github/2025_wrapped_podcast.jpg" width="320" />
+<img src="/assets/github/2025_wrapped_podcast.jpg" width="520" />
 
 **🎧 Итоги для аккаунта подкаста**
 

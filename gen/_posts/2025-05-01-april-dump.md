@@ -6,7 +6,7 @@ categories: post
 description: Обзор апрельского контента 2025 - подкасты, видео, статьи за месяц
 ---
 
-<img src="/assets/posts/2025-05-01.jpg" width="320" />
+<img src="/assets/posts/2025-05-01.jpg" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/428)
 

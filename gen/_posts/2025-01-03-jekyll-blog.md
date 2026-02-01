@@ -6,7 +6,7 @@ categories: post
 description: Создание блога на Jekyll для Flutter Developer Talks, настройка генератора статических сайтов, деплой на GitHub Pages, преимущества Jekyll для разработчиков
 ---
 
-<img src="/assets/posts/2025-01-03.jpg" width="320" />
+<img src="/assets/posts/2025-01-03.jpg" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/369)
 

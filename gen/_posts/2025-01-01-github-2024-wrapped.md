@@ -6,7 +6,7 @@ categories: post
 description: Итоги года на GitHub - статистика коммитов, популярные репозитории, активность в open source, личная аналитика разработки за 2024 год
 ---
 
-<img src="/assets/github/2024_wrapped_personal.png" width="320" />
+<img src="/assets/github/2024_wrapped_personal.png" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/367)
 
@@ -24,7 +24,7 @@ description: Итоги года на GitHub - статистика коммит
 *И да, в топе языков у меня Ruby. Он жив, Рельсы тоже. Как ни странно, Flutter это первая технология, на которой у меня
 мало личных проектов, но в то же время куча публичной информации :)*
 
-<img src="/assets/github/2024_wrapped_podcast.png" width="320" />
+<img src="/assets/github/2024_wrapped_podcast.png" width="520" />
 
 **Второе изображение - итоги репозитория подкаста**
 

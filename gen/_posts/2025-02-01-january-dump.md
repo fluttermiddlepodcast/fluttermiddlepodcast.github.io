@@ -6,7 +6,7 @@ categories: post
 description: Обзор контента января 2025 - новые выпуски подкаста, видео, статьи, итоги месяца для Flutter Developer Talks
 ---
 
-<img src="/assets/posts/2025-02-01.jpg" width="320" />
+<img src="/assets/posts/2025-02-01.jpg" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/385)
 

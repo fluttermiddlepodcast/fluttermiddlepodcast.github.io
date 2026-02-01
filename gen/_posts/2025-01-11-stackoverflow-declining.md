@@ -6,7 +6,7 @@ categories: post
 description: Проблемы Stack Overflow, снижение активности, конкуренция с ChatGPT и AI, будущее платформы вопросов-ответов для программистов, альтернативы SO
 ---
 
-<img src="/assets/posts/2025-01-11.png" width="320" />
+<img src="/assets/posts/2025-01-11.png" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/372)
 

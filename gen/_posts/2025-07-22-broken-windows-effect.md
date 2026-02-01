@@ -6,7 +6,7 @@ categories: post
 description: Теория разбитых окон применительно к разработке ПО, как небольшие проблемы в коде приводят к деградации проекта, борьба с техническим долгом
 ---
 
-<img src="/assets/windows/entrance.jpg" width="320" />
+<img src="/assets/windows/entrance.jpg" width="520" />
 
 [Читать в Telegram](https://t.me/fluttermiddlepodcast/445)
 
