@@ -1,4 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" hreflang="ru" /><updated>2026-02-01T16:21:35+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог и подкаст о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Январский дамп</title><link href="https://fluttermiddlepodcast.github.io/post/2026/02/01/january-dump.html" rel="alternate" type="text/html" title="Январский дамп" /><published>2026-02-01T00:00:00+03:00</published><updated>2026-02-01T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/02/01/january-dump</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/02/01/january-dump.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-02-01.png&quot; width=&quot;520&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" hreflang="ru" /><updated>2026-02-04T19:04:32+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог и подкаст о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Тестирование с моками и фейками</title><link href="https://fluttermiddlepodcast.github.io/post/2026/02/03/tests-with-mocks-and-fakes.html" rel="alternate" type="text/html" title="Тестирование с моками и фейками" /><published>2026-02-03T00:00:00+03:00</published><updated>2026-02-03T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/02/03/tests-with-mocks-and-fakes</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/02/03/tests-with-mocks-and-fakes.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/470&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В нашем тестовом проекте &lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example&quot;&gt;bloc_example&lt;/a&gt; недавно
+появились &lt;a href=&quot;https://t.me/fluttermiddlepodcast/463&quot;&gt;тесты&lt;/a&gt;. Пока добавил только проверку логики работы блоков. Вместо
+реальных запросов в сеть или походов в локальную БД мы используем моки и фейки.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Мок (Mock)&lt;/strong&gt; - это тестовый объект, имитирующий поведение реального объекта и позволяющий проверять взаимодействия с
+ним (что вызывалось, с какими параметрами, сколько раз).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Фейк (Fake)&lt;/strong&gt; - это самостоятельная реализация того же интерфейса, который реализует реальный компонент.&lt;/p&gt;
+
+&lt;p&gt;В &lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example&quot;&gt;bloc_example&lt;/a&gt; эти компоненты реализуются через
+пакет &lt;a href=&quot;https://pub.dev/packages/mocktail&quot;&gt;mocktail&lt;/a&gt; - решение от &lt;a href=&quot;https://github.com/felangel&quot;&gt;Феликса Ангелова&lt;/a&gt;,
+разработчика &lt;a href=&quot;https://pub.dev/packages/bloc&quot;&gt;bloc&lt;/a&gt; и &lt;a href=&quot;https://pub.dev/packages/flutter_bloc&quot;&gt;flutter_bloc&lt;/a&gt;. С другими
+плагинами по типу &lt;a href=&quot;https://pub.dev/packages/mockito&quot;&gt;mockito&lt;/a&gt; я мало работал, поэтому рассказывать про них и сравнивать
+с &lt;a href=&quot;https://pub.dev/packages/mocktail&quot;&gt;mocktail&lt;/a&gt; не буду.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Создать и использовать мок репозитория можно следующим образом:&lt;/u&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-dart highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Создаем мок репозитория как отдельный класс.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MockUsersRepository&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Mock&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UsersRepository&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&apos;UsersBloc tests&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kd&quot;&gt;late&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UsersRepository&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;usersRepository&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+      &lt;span class=&quot;n&quot;&gt;setUp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;usersRepository&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MockUsersRepository&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+          &lt;span class=&quot;c1&quot;&gt;// Определяем поведение мока при вызове метода&lt;/span&gt;
+          &lt;span class=&quot;c1&quot;&gt;// с определенными параметрами.&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;usersRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;fetchUsers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+                  &lt;span class=&quot;nl&quot;&gt;limit:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                  &lt;span class=&quot;nl&quot;&gt;page:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;thenAnswer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Future&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_testUsers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)));&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+      &lt;span class=&quot;n&quot;&gt;blocTest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&apos;Initialization test&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;build:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;UsersBloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+              &lt;span class=&quot;nl&quot;&gt;usersRepository:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;usersRepository&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;expect:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;_defaultLoadedState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// После того, как тест завершится, мы можем проверить,&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// сколько раз, например, был вызван метод `fetchUsers`.&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// Это полезно, когда у блока сложный флоу инициализации,&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// и нужно быть на все 100% уверенными в том, что лишних запросов нет.&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;tearDown:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;verify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;usersRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;fetchUsers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;limit:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;page:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;called&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Проверку количества запросов метода fetchUsers по требованиям мы делать не будем - это показано для примера. Конечная
+цель теста - удостовериться, что состояния и данные в них у блоков такие, какие мы в них ожидаем. Для этого требуется
+добавить проверку пагинации. В реализации выше нужно для каждого возможного варианта запроса сделать связку &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;when&lt;/code&gt; -&amp;gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thenAnswer&lt;/code&gt;. Это долго, и есть куда-более простой способ решить данную задачу - написать фейковый репозиторий.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Фейк, выполняющий ту же самую работу, что и мок, будет выглядеть так:&lt;/u&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-dart highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FakeUsersRepository&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Fake&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UsersRepository&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_allUsers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;FakeUsersRepository&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;_allUsers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;nd&quot;&gt;@override&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;Future&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fetchUsers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;limit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;limit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;limit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_allUsers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;[],&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pageUsers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_allUsers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sublist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_allUsers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pageUsers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Для простой логики и проверок вызовов методов лучше использовать моки, для сложных кейсов - фейки. Руководствуйтесь
+требованиями к вашим тестам, но если на первых порах ничего не понятно, возьмите моки - они легче в реализации.&lt;/p&gt;
+
+&lt;p&gt;❗️ &lt;u&gt;Учитывайте, что фейковые репозитории, которые наследуются от Fake из mocktail, лучше использовать только в
+тестах:&lt;/u&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/// &lt;span class=&quot;k&quot;&gt;**&lt;/span&gt;WARNING&lt;span class=&quot;k&quot;&gt;**&lt;/span&gt;:[Fake] uses &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;noSuchMethod]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;goo.gl/r3IQUH&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;, which is a _form_ of
+/// runtime reflection, and causes sub-standard code to be generated. As such,
+/// &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Fake] should strictly _not_ be used &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;any production code, especially &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;
+/// used within the context of Dart &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;Web &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;dart2js, DDC&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; and Dart &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;Mobile
+/// &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;Flutter&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;▶️ Подробнее про mocktail, моки, фейки, и остальные возможности библиотеки можно узнать
+из &lt;a href=&quot;https://pub.dev/packages/mocktail&quot;&gt;документации&lt;/a&gt;.&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry><entry><title type="html">Январский дамп</title><link href="https://fluttermiddlepodcast.github.io/post/2026/02/01/january-dump.html" rel="alternate" type="text/html" title="Январский дамп" /><published>2026-02-01T00:00:00+03:00</published><updated>2026-02-01T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/02/01/january-dump</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/02/01/january-dump.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-02-01.png&quot; width=&quot;520&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/469&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
 
@@ -102,7 +218,7 @@
 
 &lt;p&gt;В итоге недоверие к начальству в компании стало только сильнее. Друг поддерживает связи с бывшими коллегами и видит, как
 отношение к руководству меняется далеко не в лучшую сторону. Если бы не текущий кризис, то часть его знакомых предпочла
-бы сменить работу. И дело тут не столько в ДМС или других бонусах, сколько в отношении.&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry><entry><title type="html">🔥 bloc_test</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html" rel="alternate" type="text/html" title="🔥 bloc_test" /><published>2026-01-20T00:00:00+03:00</published><updated>2026-01-20T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-01-20.jpg&quot; width=&quot;520&quot; /&gt;&lt;/p&gt;
+бы сменить работу. И дело тут не столько в ДМС или других бонусах, сколько в отношении.&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry><entry><title type="html">🔥 bloc_test</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html" rel="alternate" type="text/html" title="🔥 bloc_test" /><published>2026-01-20T00:00:00+03:00</published><updated>2026-01-20T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/20/bloc-test.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-01-20.png&quot; width=&quot;520&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/463&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
 
@@ -352,114 +468,4 @@ NAS, называется ;)&lt;/p&gt;</content><author><name>Flutter Developer 
 
 &lt;p&gt;Пусть в 2026 году сбудутся все ваши планы и исполнятся самые заветные мечты и желания!&lt;/p&gt;
 
-&lt;p&gt;Здоровья и всех благ! С Новым годом!&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry><entry><title type="html">Flutter Widget Previewer</title><link href="https://fluttermiddlepodcast.github.io/post/2025/08/15/flutter-widget-previewer.html" rel="alternate" type="text/html" title="Flutter Widget Previewer" /><published>2025-08-15T00:00:00+03:00</published><updated>2025-08-15T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2025/08/15/flutter-widget-previewer</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2025/08/15/flutter-widget-previewer.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/451&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Вышла &lt;a href=&quot;https://docs.flutter.dev/tools/widget-previewer&quot;&gt;экспериментальная фича для просмотра виджетов в режиме реального времени&lt;/a&gt;
-в Google Chrome.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;💻 Что и как можно смотреть?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;На данный момент возможностей по отображению виджетов не много, и есть ограничения на то, что показывать.&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;Доступны к просмотру:&lt;/u&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Функции верхнего уровня: методы, возвращающие &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Widget&lt;/code&gt; или &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WidgetBuilder&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Статические методы внутри класса, возвращающие &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Widget&lt;/code&gt; или &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WidgetBuilder&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Публичные конструкторы виджетов и фабрики без обязательных аргументов.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Для отображения виджета во &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Flutter Widget Previewer&lt;/code&gt; нужно пометить аннотацией &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Preview&lt;/code&gt; элемент кода, который подходит
-под один из пунктов списка допустимых компонентов:&lt;/p&gt;
-
-&lt;div class=&quot;language-dart highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;package:flutter/widget_previews.dart&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;package:flutter/material.dart&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;nd&quot;&gt;@Preview&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;My Sample Text&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Widget&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;mySampleText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Hello, World!&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;u&gt;Далее из терминала выполняем следующую команду:&lt;/u&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;flutter widget-preview start
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Google Chrome открывается автомитически после сборки. Можно скопировать ссылку и использовать просмотрщик в других
-совместимых браузерах. Результат будет такой же (в зависимости от виджетов), как и на скриншоте в посте.&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;Помимо просмотра виджетов, можно так же менять:&lt;/u&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Зум: увеличение и уменьшение виджета в окне предварительного просмотра.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Сброс масштаба: откат после изменений зума.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Переключение между темной и светлой темами.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Hot restart отдельно взятого виджета, без пересборки всего Flutter Widget Previewer.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;🛠 Кастомизация&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;Аннотация Preview позволяет помимо имени виджета задавать следующие параметры для отображения компонента:&lt;/u&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;size&lt;/code&gt;: размер компонента с использованием класса &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Size&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;textScaleFactor&lt;/code&gt;: собственный скейл для текста внутри отображаемого виджета.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wrapper&lt;/code&gt;: функция, которая врапит ваш виджет в заданное дерево виджетов.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme&lt;/code&gt;: функция для установки &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Material&lt;/code&gt; или &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cupertino&lt;/code&gt; темы.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brightness&lt;/code&gt;: параметр &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brightness&lt;/code&gt;, который будет использоваться для отображаемого виджета.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localizations&lt;/code&gt;: локализация для отображаемого виджета.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;🚫 Ограничения&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;На данный момент имеем следующее:&lt;/u&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Публичные константы: все аргументы, которые принимает аннотация &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Preview&lt;/code&gt;, должны быть публичными и константными.
-Требуется для нормальной работы генератора кода. В будущем часть ограничений будет смягчена.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Неподдерживаемые API: нативные плагины и любые API из библиотеки &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dart:io&lt;/code&gt; не поддерживаются. Поскольку &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FWP&lt;/code&gt; работает
-в вэбе, нативные плагины там не работают. Вэб-плагины тоже не получится использовать, так как нет гарантий из работы
-локально в IDE.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Пути к ресурсам: при использовании API &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fromAsset&lt;/code&gt; из &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dart:ui&lt;/code&gt; для загрузки ресурсов необходимо использовать пути на
-основе пакетов вместо прямых локальных путей. Это дает гарантированный и корректный импорт зависимостей.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Поддержка браузеров: сейчас доступно только в Chrome, поскольку для FWP требуется поддержка горячей перезагрузки.
-Поддержку IDE обещают в скором времени.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Unconstrained&lt;/code&gt;-виджеты: на данный момент отображаются только на половину экрана. В будущем поведение изменится.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry></feed>
+&lt;p&gt;Здоровья и всех благ! С Новым годом!&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry></feed>
