@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" hreflang="ru" /><updated>2026-02-04T19:04:32+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог и подкаст о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Тестирование с моками и фейками</title><link href="https://fluttermiddlepodcast.github.io/post/2026/02/03/tests-with-mocks-and-fakes.html" rel="alternate" type="text/html" title="Тестирование с моками и фейками" /><published>2026-02-03T00:00:00+03:00</published><updated>2026-02-03T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/02/03/tests-with-mocks-and-fakes</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/02/03/tests-with-mocks-and-fakes.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/470&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://fluttermiddlepodcast.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fluttermiddlepodcast.github.io/" rel="alternate" type="text/html" hreflang="ru" /><updated>2026-02-07T12:23:57+03:00</updated><id>https://fluttermiddlepodcast.github.io/feed.xml</id><title type="html">Flutter Developer Talks</title><subtitle>Блог и подкаст о Flutter-разработке</subtitle><author><name>Flutter Developer Talks</name></author><entry><title type="html">Новости / интересное</title><link href="https://fluttermiddlepodcast.github.io/post/2026/02/07/news-interesting.html" rel="alternate" type="text/html" title="Новости / интересное" /><published>2026-02-07T00:00:00+03:00</published><updated>2026-02-07T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/02/07/news-interesting</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/02/07/news-interesting.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/472&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Новости, что-то интересное, анонсы - в общем все, что хочется рассказать ;)&lt;/p&gt;
+
+&lt;p&gt;1️⃣ &lt;strong&gt;Обновление выпусков подкаста в Spotify&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В &lt;a href=&quot;https://open.spotify.com/show/1CrEfnUMAKnd2eFU0LmK5w&quot;&gt;Spotify&lt;/a&gt; теперь есть видео-выпуски подкаста. Можно смотреть без
+перехода на &lt;a href=&quot;https://www.youtube.com/channel/UCO7JLX8GbkJtxhHEWslPPQQ&quot;&gt;YouTube&lt;/a&gt; или
+в &lt;a href=&quot;https://t.me/fluttermiddlepodcast&quot;&gt;Телеграм&lt;/a&gt;. Загрузил туда все видео, которые есть к эпизодам.&lt;/p&gt;
+
+&lt;p&gt;Остальные площадки либо не имеют такой фичи, либо имеют сложности с загрузкой. Если дистрибьютор сделает подобную фичу,
+или же где-нибудь в &lt;a href=&quot;https://podcasts.apple.com/by/podcast/flutter-middle-podcast/id1648922484&quot;&gt;Apple Podcasts&lt;/a&gt; появится
+такая же как в &lt;a href=&quot;https://open.spotify.com/show/1CrEfnUMAKnd2eFU0LmK5w&quot;&gt;Spotify&lt;/a&gt; загрузка видео-выпусков - опубликую и
+там.&lt;/p&gt;
+
+&lt;p&gt;2️⃣ &lt;strong&gt;Новый контент по bloc / flutter_bloc&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Все материалы по Блоку собираются в одном &lt;a href=&quot;https://t.me/fluttermiddlepodcast/432&quot;&gt;посте&lt;/a&gt;, либо же ищутся по
+тегу &lt;a href=&quot;https://t.me/fluttermiddlepodcast&quot;&gt;#bloc&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Посты в Телеграм писать чуть сложнее, чем делать видео или записывать подкаст. Дело в ограничениях по тексту, и
+сложности выбора того, что оставить, а что вырезать из текста. Как результат - что-то так и не выходит, пока не оформлю
+это отдельным видео или эпизодом подкаста.&lt;/p&gt;
+
+&lt;p&gt;В январе вышли заметки про &lt;a href=&quot;https://t.me/fluttermiddlepodcast/461&quot;&gt;bloc_lint&lt;/a&gt;
+и &lt;a href=&quot;https://t.me/fluttermiddlepodcast/461&quot;&gt;bloc_test&lt;/a&gt;. В этом месяце дополнил тему
+тестов &lt;a href=&quot;https://t.me/fluttermiddlepodcast/470&quot;&gt;разбором отличий моков от фейков&lt;/a&gt; в
+проекте &lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example&quot;&gt;bloc_example&lt;/a&gt;. Будет еще пост
+о &lt;a href=&quot;https://pub.dev/documentation/bloc/latest/bloc/BlocObserver-class.html&quot;&gt;BlocObserver&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example&quot;&gt;bloc_example&lt;/a&gt; содержит открытые (и несколько
+закрытых) &lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example/pulls&quot;&gt;реквестов&lt;/a&gt; с
+тегом &lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example/pulls?q=is:pr+is:open+label:research&quot;&gt;research&lt;/a&gt;. Там
+содержатся наработки, которые готовы по части разработки, но не оформлены в отдельные материалы. Можете ознакомиться,
+если интересно ;)&lt;/p&gt;
+
+&lt;p&gt;3️⃣ &lt;strong&gt;Когда будут новые видео и новые выпуски подкаста?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Пока публикую посты, на запись все никак не могу найти время.&lt;/p&gt;
+
+&lt;p&gt;Есть планы на разбор тестов блоков (проще показать, чем писать пост под копирку с документации), да и всего того, о чем
+было написано, но нет альтернативы в виде скринкаста или подкаста.&lt;/p&gt;
+
+&lt;p&gt;4️⃣ &lt;strong&gt;Обновление сайта&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;У нас есть &lt;a href=&quot;https://fluttermiddlepodcast.github.io/&quot;&gt;сайт&lt;/a&gt;, если что. Там дублируются посты из Телеграма. Кому удобно
+читать в браузере, &lt;a href=&quot;https://fluttermiddlepodcast.github.io/&quot;&gt;велкоме&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Блог появился год назад, делал анонс и рассказывал подробнее &lt;a href=&quot;https://t.me/fluttermiddlepodcast/369&quot;&gt;тут&lt;/a&gt;. Если коротко,
+то он написан на &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; и хостится на &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Текущая реализация мне не очень нравится. Есть проблемы с деплоем, работой с постами, форматированием и внесением
+изменений. Так что не придумал ничего лучше, чем просто взять и сменить фреймворк. Пока что присматриваюсь
+к &lt;a href=&quot;https://staticshock.io/&quot;&gt;static_shock&lt;/a&gt;. Он написан на Дарте, и локально даже сделал копию текущей реализации 1 в 1.
+Если удастся решить все проблемные моменты, скоро залью новую версию и читать посты станет еще удобнее.&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html">Читать в Telegram</summary></entry><entry><title type="html">Тестирование с моками и фейками</title><link href="https://fluttermiddlepodcast.github.io/post/2026/02/03/tests-with-mocks-and-fakes.html" rel="alternate" type="text/html" title="Тестирование с моками и фейками" /><published>2026-02-03T00:00:00+03:00</published><updated>2026-02-03T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/02/03/tests-with-mocks-and-fakes</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/02/03/tests-with-mocks-and-fakes.html">&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/470&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;В нашем тестовом проекте &lt;a href=&quot;https://github.com/fluttermiddlepodcast/bloc_example&quot;&gt;bloc_example&lt;/a&gt; недавно
 появились &lt;a href=&quot;https://t.me/fluttermiddlepodcast/463&quot;&gt;тесты&lt;/a&gt;. Пока добавил только проверку логики работы блоков. Вместо
@@ -460,12 +514,4 @@ NAS, называется ;)&lt;/p&gt;</content><author><name>Flutter Developer 
   &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/406&quot;&gt;Начало истории про Vibe Coding&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/407&quot;&gt;Конец истории про Vibe Coding&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/408&quot;&gt;Мое мнение по всем материалам выше&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry><entry><title type="html">С Новым годом!</title><link href="https://fluttermiddlepodcast.github.io/post/2026/01/01/happy-new-year-2026.html" rel="alternate" type="text/html" title="С Новым годом!" /><published>2026-01-01T00:00:00+03:00</published><updated>2026-01-01T00:00:00+03:00</updated><id>https://fluttermiddlepodcast.github.io/post/2026/01/01/happy-new-year-2026</id><content type="html" xml:base="https://fluttermiddlepodcast.github.io/post/2026/01/01/happy-new-year-2026.html">&lt;p&gt;&lt;img src=&quot;/assets/posts/2026-01-01.gif&quot; width=&quot;520&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://t.me/fluttermiddlepodcast/456&quot;&gt;Читать в Telegram&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2025 год подходит к концу. Спасибо, что были со мной - читали, ставили реакции, комментировали и делились постами.&lt;/p&gt;
-
-&lt;p&gt;Пусть в 2026 году сбудутся все ваши планы и исполнятся самые заветные мечты и желания!&lt;/p&gt;
-
-&lt;p&gt;Здоровья и всех благ! С Новым годом!&lt;/p&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Flutter Developer Talks</name></author><category term="post" /><summary type="html"></summary></entry></feed>
