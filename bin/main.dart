@@ -14,7 +14,7 @@ Future<void> main(_) async {
         site: RssSiteConfiguration(
           title: 'Flutter Developer Talks',
           description: 'Flutter Developer Talks blog',
-          homePageUrl: '',
+          homePageUrl: 'https://fluttermiddlepodcast.github.io',
           language: 'Russian',
         ),
         pageToRssItemMapper: (config, page) {
