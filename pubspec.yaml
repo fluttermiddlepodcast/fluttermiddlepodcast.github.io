@@ -1,0 +1,13 @@
+name: flutter_developer_talks
+description: Flutter Developer Talks blog
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  static_shock: ^0.0.9
+
+dev_dependencies:
+  lints: ^2.0.0

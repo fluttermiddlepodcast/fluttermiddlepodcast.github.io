@@ -1,7 +1,9 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+/build
 
-.idea/
+.dart_tool/
+
+.idea
+
+.DS_Store
+
+pubspec.lock

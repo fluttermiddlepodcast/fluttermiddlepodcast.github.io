@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/dart.min.js"></script>
+
+<script>
+  hljs.highlightAll();
+  
+  // Add copy buttons to code blocks
+  document.addEventListener('DOMContentLoaded', function() {
+    const codeBlocks = document.querySelectorAll('pre code, div.highlighter-rouge code');
+    
+    codeBlocks.forEach(function(codeBlock) {
+      const pre = codeBlock.parentElement;
+      if (pre.tagName === 'PRE' || pre.classList.contains('highlighter-rouge')) {
+        // Check if button already exists
+        if (pre.querySelector('.copy-button')) {
+          return;
+        }
+        
+        const button = document.createElement('button');
+        button.className = 'copy-button';
+        button.innerHTML = '<span class="material-icons">content_copy</span>';
+        button.title = 'Копировать код';
+        
+        button.addEventListener('click', function() {
+          const text = codeBlock.textContent || codeBlock.innerText;
+          navigator.clipboard.writeText(text).then(function() {
+            button.innerHTML = '<span class="material-icons">check</span>';
+            button.title = 'Скопировано!';
+            setTimeout(function() {
+              button.innerHTML = '<span class="material-icons">content_copy</span>';
+              button.title = 'Копировать код';
+            }, 2000);
+          }).catch(function(err) {
+            // Fallback for older browsers
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            button.innerHTML = '<span class="material-icons">check</span>';
+            button.title = 'Скопировано!';
+            setTimeout(function() {
+              button.innerHTML = '<span class="material-icons">content_copy</span>';
+              button.title = 'Копировать код';
+            }, 2000);
+          });
+        });
+        
+        // Make pre relative for absolute positioning
+        if (pre.style.position !== 'absolute') {
+          pre.style.position = 'relative';
+        }
+        pre.appendChild(button);
+      }
+    });
+  });
+</script>
