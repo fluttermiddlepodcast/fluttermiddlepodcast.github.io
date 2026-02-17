@@ -17,6 +17,6 @@ publishDate: 2026-02-10
 Мой [тут](https://tgpages.com/atlas/map/?x=-0.418278&y=0.371821&z=125.18&search=Flutter+Developer+Talks&channel=758b41df-1161-42ce-bd99-72e786d4366e&zoom=125.18236253864734),
 можете посмотреть всех, кто рядом ;)
 
-https://tgpages.com/atlas/map
-https://tgpages.com/atlas/map
-https://tgpages.com/atlas/map
+[https://tgpages.com/atlas/map](https://tgpages.com/atlas/map)
+[https://tgpages.com/atlas/map](https://tgpages.com/atlas/map)
+[https://tgpages.com/atlas/map](https://tgpages.com/atlas/map)
