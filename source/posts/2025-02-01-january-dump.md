@@ -24,7 +24,7 @@ publishDate: 2025-02-01
 
 🔖 **Посты**
 
-- [GitHub 2024 Wrapped](https://t.me/fluttermiddlepodcast/367)
-- [Блог на Jekyll](https://t.me/fluttermiddlepodcast/369)
-- [Flutter + Ruby / Rails](https://t.me/fluttermiddlepodcast/371)
-- [StackOverflow загибается?](https://t.me/fluttermiddlepodcast/372)
+- [GitHub 2024 Wrapped](/posts/2025-01-01-github-2024-wrapped/)
+- [Блог на Jekyll](/posts/2025-01-03-jekyll-blog/)
+- [Flutter + Ruby / Rails](/posts/2025-01-08-flutter-ruby-rails/)
+- [StackOverflow загибается?](/posts/2025-01-11-stackoverflow-declining/)

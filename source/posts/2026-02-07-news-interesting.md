@@ -20,16 +20,16 @@ publishDate: 2026-02-07
 
 2️⃣ **Новый контент по bloc / flutter_bloc**
 
-Все материалы по Блоку собираются в одном [посте](https://t.me/fluttermiddlepodcast/432), либо же ищутся по
+Все материалы по Блоку собираются в одном [посте](/posts/2025-05-12-all-bloc-materials/), либо же ищутся по
 тегу [#bloc](https://t.me/fluttermiddlepodcast).
 
 Посты в Телеграм писать чуть сложнее, чем делать видео или записывать подкаст. Дело в ограничениях по тексту, и
 сложности выбора того, что оставить, а что вырезать из текста. Как результат - что-то так и не выходит, пока не оформлю
 это отдельным видео или эпизодом подкаста.
 
-В январе вышли заметки про [bloc_lint](https://t.me/fluttermiddlepodcast/461)
-и [bloc_test](https://t.me/fluttermiddlepodcast/461). В этом месяце дополнил тему
-тестов [разбором отличий моков от фейков](https://t.me/fluttermiddlepodcast/470) в
+В январе вышли заметки про [bloc_lint](/posts/2026-01-10-bloc-lint/)
+и [bloc_test](/posts/2026-01-10-bloc-lint/). В этом месяце дополнил тему
+тестов [разбором отличий моков от фейков](/posts/2026-02-03-tests-with-mocks-and-fakes/) в
 проекте [bloc_example](https://github.com/fluttermiddlepodcast/bloc_example). Будет еще пост
 о [BlocObserver](https://pub.dev/documentation/bloc/latest/bloc/BlocObserver-class.html).
 
@@ -51,7 +51,7 @@ publishDate: 2026-02-07
 У нас есть [сайт](https://fluttermiddlepodcast.github.io/), если что. Там дублируются посты из Телеграма. Кому удобно
 читать в браузере, [велкоме](https://fluttermiddlepodcast.github.io/).
 
-Блог появился год назад, делал анонс и рассказывал подробнее [тут](https://t.me/fluttermiddlepodcast/369). Если коротко,
+Блог появился год назад, делал анонс и рассказывал подробнее [тут](/posts/2025-01-03-jekyll-blog/). Если коротко,
 то он написан на [Jekyll](https://jekyllrb.com/) и хостится на [GitHub Pages](https://pages.github.com/).
 
 Текущая реализация мне не очень нравится. Есть проблемы с деплоем, работой с постами, форматированием и внесением

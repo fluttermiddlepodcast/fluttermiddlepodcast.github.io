@@ -11,15 +11,15 @@ publishDate: 2026-02-01
 
 🔖 **Посты**
 
-- [Дамп 2025](https://t.me/fluttermiddlepodcast/458)
-- [GitHub 2025 Wrapped](https://t.me/fluttermiddlepodcast/459)
-- [bloc_lint](https://t.me/fluttermiddlepodcast/461)
-- [bloc_test](https://t.me/fluttermiddlepodcast/463)
+- [Дамп 2025](/posts/2026-01-02-dump-2025/)
+- [GitHub 2025 Wrapped](/posts/2026-01-09-github-2025-wrapped/)
+- [bloc_lint](/posts/2026-01-10-bloc-lint/)
+- [bloc_test](/posts/2026-01-20-bloc-test/)
 - [Разбор "Чистого года" Роберта Мартина от Кирилла Мокевнина](https://t.me/fluttermiddlepodcast/464)
-- [Плохой антикриз](https://t.me/fluttermiddlepodcast/465)
-- [Optimistic updates](https://t.me/fluttermiddlepodcast/468)
+- [Плохой антикриз](/posts/2026-01-25-bad-anticrisis/)
+- [Optimistic updates](/posts/2026-01-29-optimistic-updates/)
 
 📑 **Оффтоп**
 
-- [Цены на память - это какой-то пипец](https://t.me/fluttermiddlepodcast/462)
+- [Цены на память - это какой-то пипец](/posts/2026-01-18-memory-prices-crazy/)
 - [Майкрософт ломает Виндовс апдейтами + опрос по стабильности работы ОС](https://t.me/fluttermiddlepodcast/466)

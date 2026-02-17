@@ -48,8 +48,8 @@ Flutter показывает, насколько вы знакомы со ста
 
 ℹ️ **Все посты по теме**
 
-- [Собеседования в крупные компании. Часть 1 - скрининг](https://t.me/fluttermiddlepodcast/194)
-- [Собеседования в крупные компании. Часть 2 - алгоритмы и теория](https://t.me/fluttermiddlepodcast/195)
-- [Собеседования в крупные компании. Часть 3 - лайвкодинг и проектирование фичи](https://t.me/fluttermiddlepodcast/197)
-- [Собеседования в крупные компании. Часть 4 - секция с продактом](https://t.me/fluttermiddlepodcast/198)
-- [Собеседования в крупные компании. Итог](https://t.me/fluttermiddlepodcast/199)
+- [Собеседования в крупные компании. Часть 1 - скрининг](/posts/2024-04-16-big-company-interviews-part-1-screening)
+- [Собеседования в крупные компании. Часть 2 - алгоритмы и теория](/posts/2024-04-18-big-company-interviews-part-2-algorithms/)
+- [Собеседования в крупные компании. Часть 3 - лайвкодинг и проектирование фичи](/posts/2024-04-20-big-company-interviews-part-3-livecoding/)
+- [Собеседования в крупные компании. Часть 4 - секция с продактом](/posts/2024-04-22-big-company-interviews-part-4-product/)
+- [Собеседования в крупные компании. Итог](/posts/2024-04-26-big-company-interviews-summary/)

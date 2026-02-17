@@ -31,8 +31,8 @@ publishDate: 2025-04-01
 
 🔖 **Посты**
 
-- [Февральский дамп](https://t.me/fluttermiddlepodcast/396)
+- [Февральский дамп](/posts/2025-03-01-february-dump/)
 - [У GitHub'а отвалился squash](https://t.me/fluttermiddlepodcast/401)
-- [Новости / Анонсы 2](https://t.me/fluttermiddlepodcast/403)
-- [Пиши, сокращай](https://t.me/fluttermiddlepodcast/409)
+- [Новости / Анонсы 2](/posts/2025-03-22-news-announcements-2/)
+- [Пиши, сокращай](/posts/2025-03-26-write-briefly/)
 - [Выбираем самый лучший шрифт для IDE](https://t.me/fluttermiddlepodcast/411)

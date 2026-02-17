@@ -50,7 +50,7 @@ No new language updates in this release of Dart.
 
 — **Ресурсы, специфичные для платформы.** Ассеты теперь можно разделять по платформам в pubspec.yaml.
 
-— **Остальное**: [Flutter Widget Preview](https://t.me/fluttermiddlepodcast/451) теперь имеет доступ к Flutter
+— **Остальное**: [Flutter Widget Preview](/posts/2025-08-15-flutter-widget-previewer/) теперь имеет доступ к Flutter
 инспектору, улучшение интеграции Flutter с уже существующими приложениями, а так же доработки навигации и скролла.
 
 <u>Подробнее:</u> [RU](https://habr.com/ru/articles/995624/) | [EN](https://blog.dart.dev/announcing-dart-3-11-b6529be4203a)

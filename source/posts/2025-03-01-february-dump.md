@@ -38,5 +38,5 @@ publishDate: 2025-03-01
 
 🔖 **Посты**
 
-- [Январский дамп](https://t.me/fluttermiddlepodcast/385)
-- [Новости / Анонсы](https://t.me/fluttermiddlepodcast/395)
+- [Январский дамп](/posts/2025-02-01-january-dump/)
+- [Новости / Анонсы](/posts/2025-02-26-news-announcements/)
