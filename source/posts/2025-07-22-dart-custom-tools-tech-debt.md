@@ -56,7 +56,7 @@ class BEShimmer extends StatelessWidget {
 ветку [technical_debt](https://github.com/fluttermiddlepodcast/bloc_example/tree/technical_debt), где можно попробовать
 самим сгенерировать отчет, и посмотреть на сгенерированный результат.
 
-**Просто выгружаете проект, и дальше из терминала после `fvm pub get` выполняете:**
+**Просто выгружаете проект, и дальше из терминала после `fvm flutter pub get` выполняете:**
 
 ```shell
 $ fvm flutter pub run build_runner build --delete-conflicting-outputs

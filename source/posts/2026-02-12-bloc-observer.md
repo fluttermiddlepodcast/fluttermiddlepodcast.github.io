@@ -21,7 +21,7 @@ publishDate: 2026-02-12
 — Отправки аналитики
 
 Пакет [bloc](https://pub.dev/packages/bloc) содержит в себе
-только [API обсервера](https://pub.dev/documentation/bloc/latest/bloc/BlocObserver-class.html) и реализацию по
+[API обсервера](https://pub.dev/documentation/bloc/latest/bloc/BlocObserver-class.html) и реализацию по
 умолчанию - простую заглушку без какой-либо логики.
 
 В проект [bloc_example](https://github.com/fluttermiddlepodcast/bloc_example/tree/bloc_observer)

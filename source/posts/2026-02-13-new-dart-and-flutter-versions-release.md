@@ -53,4 +53,4 @@ No new language updates in this release of Dart.
 — **Остальное**: [Flutter Widget Preview](/posts/2025-08-15-flutter-widget-previewer/) теперь имеет доступ к Flutter
 инспектору, улучшение интеграции Flutter с уже существующими приложениями, а так же доработки навигации и скролла.
 
-<u>Подробнее:</u> [RU](https://habr.com/ru/articles/995624/) | [EN](https://blog.dart.dev/announcing-dart-3-11-b6529be4203a)
+<u>Подробнее:</u> [RU](https://habr.com/ru/articles/995604/) | [EN](https://blog.flutter.dev/whats-new-in-flutter-3-41-302ec140e632)
